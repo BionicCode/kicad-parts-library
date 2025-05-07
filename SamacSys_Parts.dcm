@@ -6,4 +6,10 @@ K
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
+$CMP APHF1608LSEEQBDZGKC
+D Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead
+K
+F https://www.kingbrightusa.com/images/catalog/SPEC/APHF1608LSEEQBDZGKC.pdf
+$ENDCMP
+#
 #End Doc Library
