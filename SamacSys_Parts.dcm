@@ -12,4 +12,10 @@ K
 F https://www.kingbrightusa.com/images/catalog/SPEC/APHF1608LSEEQBDZGKC.pdf
 $ENDCMP
 #
+$CMP NPM1300-QEAA-R7
+D Battery Power Management IC Lithium Ion/Polymer 32-QFN (5x5)
+K
+F https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6443/NPM1300-QEAA-R7.pdf
+$ENDCMP
+#
 #End Doc Library
