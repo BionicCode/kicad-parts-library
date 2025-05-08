@@ -42,4 +42,10 @@ K
 F https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/L0806C4R7MDMIT
 $ENDCMP
 #
+$CMP CL10A106MQ8NNNC
+D Samsung Electro-Mechanics 10uF Multilayer Ceramic Capacitor MLCC 6.3V dc +/-20% X5R Dielectric 0603 (1608M) SMD
+K
+F http://uk.rs-online.com/web/p/products/7664718
+$ENDCMP
+#
 #End Doc Library
