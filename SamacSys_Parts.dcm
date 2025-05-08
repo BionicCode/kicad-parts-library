@@ -18,4 +18,28 @@ K
 F https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6443/NPM1300-QEAA-R7.pdf
 $ENDCMP
 #
+$CMP WS2813E
+D RGB SMD5050 Light Emitting Diodes (LED) ROHS
+K
+F https://pdf1.alldatasheet.com/datasheet-pdf/download/1134587/WORLDSEMI/WS2813E.html
+$ENDCMP
+#
+$CMP CIGT201610EH2R2MNE
+D Inductor Power Thin Film 2.2uH 20% 1MHz Metal 2.5A 0.087Ohm DCR 0806 T/R
+K
+F https://www.arrow.com/en/products/cigt201610eh2r2mne/samsung-electro-mechanics?region=nac
+$ENDCMP
+#
+$CMP 0603X106M6R3CT
+D WALSIN - 0603X106M6R3CT - CAPACITOR, MLCC, X5R, 10UF, 6.3V, 0603
+K
+F https://componentsearchengine.com/Datasheets/2/0603X106M6R3CT.pdf
+$ENDCMP
+#
+$CMP L0806C4R7MDMIT
+D INDUCTOR, 4.7UH, MULTILAYER, 0.9A, 0806
+K
+F https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/L0806C4R7MDMIT
+$ENDCMP
+#
 #End Doc Library

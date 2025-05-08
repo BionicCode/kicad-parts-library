@@ -105,4 +105,105 @@ P 5 0 1 6 200 1000 1200 1000 1200 -1200 200 -1200 200 1000 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model WS2813E
+#/17532427/1672527/2.50/6/3/LED
+DEF WS2813E LED 0 30 Y Y 1 F N
+F0 "LED" 850 300 50 H V L CNN
+F1 "WS2813E" 850 200 50 H V L CNN
+F2 "WS2813E" 850 100 50 H I L CNN
+F3 "https://pdf1.alldatasheet.com/datasheet-pdf/download/1134587/WORLDSEMI/WS2813E.html" 850 0 50 H I L CNN
+F4 "RGB SMD5050 Light Emitting Diodes (LED) ROHS" 850 -100 50 H I L CNN "Description"
+F5 "1.7" 850 -200 50 H I L CNN "Height"
+F6 "Worldsemi" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "WS2813E" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC 1 1000 -200 200 L 50 50 0 0 N
+X VDD 2 1000 -100 200 L 50 50 0 0 P
+X DO 3 1000 0 200 L 50 50 0 0 P
+X DIN 4 0 0 200 R 50 50 0 0 P
+X GND 5 0 -100 200 R 50 50 0 0 P
+X BIN 6 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CIGT201610EH2R2MNE
+#/1218759/1672527/2.50/2/0/Inductor
+DEF CIGT201610EH2R2MNE L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "CIGT201610EH2R2MNE" 650 150 50 H V L CNN
+F2 "INDC2016X100N" 650 50 50 H I L CNN
+F3 "https://www.arrow.com/en/products/cigt201610eh2r2mne/samsung-electro-mechanics?region=nac" 650 -50 50 H I L CNN
+F4 "Inductor Power Thin Film 2.2uH 20% 1MHz Metal 2.5A 0.087Ohm DCR 0806 T/R" 650 -150 50 H I L CNN "Description"
+F5 "1" 650 -250 50 H I L CNN "Height"
+F6 "SAMSUNG" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CIGT201610EH2R2MNE" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "187-CIGT201610EH2R2M" 650 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CIGT201610EH2R2MNE?qs=xZ%2FP%252Ba9zWqZIUbP0rTj%2F5Q%3D%3D" 650 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "CIGT201610EH2R2MNE" 650 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/cigt201610eh2r2mne/samsung-electro-mechanics?utm_currency=USD&region=nac" 650 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 0603X106M6R3CT
+#/275604/1672527/2.50/2/3/Capacitor
+DEF 0603X106M6R3CT C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "0603X106M6R3CT" 350 150 50 H V L CNN
+F2 "CAPC1608X87N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/0603X106M6R3CT.pdf" 350 -50 50 H I L CNN
+F4 "WALSIN - 0603X106M6R3CT - CAPACITOR, MLCC, X5R, 10UF, 6.3V, 0603" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "Walsin Technology Corporation" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0603X106M6R3CT" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "791-0603X106M6R3CT" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Walsin/0603X106M6R3CT?qs=ZrPdAQfJ6DMy7QiOHAOYKg%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model L0806C4R7MDMIT
+#/13634409/1672527/2.50/2/3/Inductor
+DEF L0806C4R7MDMIT L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "L0806C4R7MDMIT" 650 150 50 H V L CNN
+F2 "CAPC2016X100N" 650 50 50 H I L CNN
+F3 "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/L0806C4R7MDMIT" 650 -50 50 H I L CNN
+F4 "INDUCTOR, 4.7UH, MULTILAYER, 0.9A, 0806" 650 -150 50 H I L CNN "Description"
+F5 "1" 650 -250 50 H I L CNN "Height"
+F6 "KEMET" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "L0806C4R7MDMIT" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-L0806C4R7MDMIT" 650 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KEMET/L0806C4R7MDMIT/?qs=7MVldsJ5UayVw2jLYA7K1Q%3D%3D" 650 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
 #End Library
