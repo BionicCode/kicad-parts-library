@@ -1503,7 +1503,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 0 39.37 0)
 				(length 7.62)
 				(name "CC1"
@@ -1521,7 +1521,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 0 36.83 0)
 				(length 7.62)
 				(name "CC2"
@@ -1539,7 +1539,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 21.59 0)
 				(length 7.62)
 				(name "VBAT"
@@ -1701,7 +1701,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin open_collector line
 				(at 0 -44.45 0)
 				(length 7.62)
 				(name "SDA"
@@ -1827,7 +1827,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 66.04 41.91 180)
 				(length 7.62)
 				(name "VBUSOUT"
@@ -1845,7 +1845,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 66.04 39.37 180)
 				(length 7.62)
 				(name "VSYS"
@@ -1881,7 +1881,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 66.04 16.51 180)
 				(length 7.62)
 				(name "VOUT1"
@@ -1899,7 +1899,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 66.04 8.89 180)
 				(length 7.62)
 				(name "SW1"
@@ -1935,7 +1935,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 66.04 -8.89 180)
 				(length 7.62)
 				(name "VOUT2"
@@ -1953,7 +1953,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 66.04 -16.51 180)
 				(length 7.62)
 				(name "SW2"
@@ -2025,7 +2025,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 66.04 -44.45 180)
 				(length 7.62)
 				(name "LSOUT1/VOUTLDO1"
@@ -2043,7 +2043,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 66.04 -46.99 180)
 				(length 7.62)
 				(name "LSOUT2/VOUTLDO2"
