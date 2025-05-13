@@ -255,4 +255,26 @@ P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model COM-13834
+#/11307610/1672527/2.50/2/3/Switch
+DEF COM-13834 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "COM-13834" 650 200 50 H V L CNN
+F2 "COM13834" 650 100 50 H I L CNN
+F3 "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf" 650 0 50 H I L CNN
+F4 "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW" 650 -100 50 H I L CNN "Description"
+F5 "15.2" 650 -200 50 H I L CNN "Height"
+F6 "SparkFun" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "COM-13834" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "474-COM-13834" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "COM-13834" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "null?utm_currency=USD&region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 800 0 200 L 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

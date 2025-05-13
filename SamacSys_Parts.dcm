@@ -54,4 +54,10 @@ K
 F https://media.digikey.com/pdf/Data%20Sheets/Cherry%20PDFs/MX%20Series.pdf
 $ENDCMP
 #
+$CMP COM-13834
+D Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW
+K
+F https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf
+$ENDCMP
+#
 #End Doc Library
