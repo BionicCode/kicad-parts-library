@@ -79,7 +79,7 @@
 	(attr smd)
 	(fp_line
 		(start -7.8 -7.8)
-		(end -7.8 -3.8)
+		(end -7.8 -4.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -89,7 +89,7 @@
 	)
 	(fp_line
 		(start -7.8 -7.8)
-		(end -3.8 -7.8)
+		(end -4.5 -7.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -99,7 +99,7 @@
 	)
 	(fp_line
 		(start -7.8 7.8)
-		(end -7.8 3.8)
+		(end -7.8 4.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -109,7 +109,7 @@
 	)
 	(fp_line
 		(start -7.8 7.8)
-		(end -3.8 7.8)
+		(end -4.5 7.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -119,7 +119,7 @@
 	)
 	(fp_line
 		(start 7.8 -7.8)
-		(end 3.8 -7.8)
+		(end 4.5 -7.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -129,7 +129,7 @@
 	)
 	(fp_line
 		(start 7.8 -7.8)
-		(end 7.8 -3.8)
+		(end 7.8 -4.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -139,7 +139,7 @@
 	)
 	(fp_line
 		(start 7.8 7.8)
-		(end 3.8 7.8)
+		(end 4.5 7.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -149,7 +149,7 @@
 	)
 	(fp_line
 		(start 7.8 7.8)
-		(end 7.8 3.8)
+		(end 7.8 4.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -193,17 +193,7 @@
 	)
 	(fp_line
 		(start -7.8 -7.8)
-		(end -7.8 -3.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "6ded6d44-6668-44d6-bda8-09b06d41a11d")
-	)
-	(fp_line
-		(start -7.8 -7.8)
-		(end -7.8 -3.8)
+		(end -7.8 -4.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -213,7 +203,7 @@
 	)
 	(fp_line
 		(start -7.8 -7.8)
-		(end -3.8 -7.8)
+		(end -4.5 -7.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -222,18 +212,8 @@
 		(uuid "3e2b0b8a-fc54-4f2d-8cd8-21481dfda46c")
 	)
 	(fp_line
-		(start -7.8 -7.8)
-		(end -3.8 -7.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "d8116bf8-d55d-4ee0-a4fd-abb494765a17")
-	)
-	(fp_line
 		(start -7.8 7.8)
-		(end -7.8 3.8)
+		(end -7.8 4.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -243,27 +223,7 @@
 	)
 	(fp_line
 		(start -7.8 7.8)
-		(end -7.8 3.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "5fd4f98b-2ba0-4a7d-a924-4120a5600bd4")
-	)
-	(fp_line
-		(start -7.8 7.8)
-		(end -3.8 7.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "ad808dd3-303e-4eb5-8e46-4cbc856d6f9e")
-	)
-	(fp_line
-		(start -7.8 7.8)
-		(end -3.8 7.8)
+		(end -4.5 7.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -273,7 +233,7 @@
 	)
 	(fp_line
 		(start 7.8 -7.8)
-		(end 3.8 -7.8)
+		(end 4.5 -7.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -283,27 +243,7 @@
 	)
 	(fp_line
 		(start 7.8 -7.8)
-		(end 3.8 -7.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "c3059c05-192d-46f9-bf91-20e3bf72f5fb")
-	)
-	(fp_line
-		(start 7.8 -7.8)
-		(end 7.8 -3.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "e44384ad-3d2a-40db-a1e6-0afbd760f3cc")
-	)
-	(fp_line
-		(start 7.8 -7.8)
-		(end 7.8 -3.8)
+		(end 7.8 -4.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -313,7 +253,7 @@
 	)
 	(fp_line
 		(start 7.8 7.8)
-		(end 3.8 7.8)
+		(end 4.5 7.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -323,33 +263,13 @@
 	)
 	(fp_line
 		(start 7.8 7.8)
-		(end 3.8 7.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "edf6c4fa-3191-43e4-b7c9-342df838e19f")
-	)
-	(fp_line
-		(start 7.8 7.8)
-		(end 7.8 3.8)
+		(end 7.8 4.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
 		(uuid "198dc314-7f6e-40ad-9d35-edf6ab5082ed")
-	)
-	(fp_line
-		(start 7.8 7.8)
-		(end 7.8 3.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "1c66cb31-7145-4299-a460-0bc3a6801b7c")
 	)
 	(fp_rect
 		(start -9.525 -9.525)
@@ -552,7 +472,7 @@
 		)
 	)
 	(fp_text user "1U"
-		(at -1 9.3 0)
+		(at -1 9.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e787340a-de64-450e-bfab-7fce95820beb")
@@ -565,7 +485,7 @@
 		)
 	)
 	(fp_text user "1U"
-		(at 1 9.3 0)
+		(at 1 9.2 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "52eb121f-820c-4647-aa4b-fc8385e2f31e")
@@ -637,22 +557,6 @@
 		(uuid "3324daee-245b-49f8-8705-b37d8ebb831d")
 	)
 	(pad "1" smd roundrect
-		(at -7.085 -2.54)
-		(size 2.55 2.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "1701d60d-e33d-41a9-8580-790770db94a3")
-	)
-	(pad "2" smd roundrect
-		(at 5.815 -5.08)
-		(size 2.55 2.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "c161a4e5-ae3d-41f6-baf9-8432ac3b3f85")
-	)
-	(pad "3" smd roundrect
 		(at -2.775 5.835)
 		(size 0.75 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -660,7 +564,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "f307c4cf-9b89-40d9-a7d7-ef7f7f66e01d")
 	)
-	(pad "4" smd roundrect
+	(pad "2" smd roundrect
 		(at -2.775 4.325)
 		(size 0.75 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -668,7 +572,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "a2fa4030-d718-4bd1-b2aa-a9c79dbfdef1")
 	)
-	(pad "5" smd roundrect
+	(pad "3" smd roundrect
 		(at 2.775 4.325)
 		(size 0.75 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -676,13 +580,29 @@
 		(thermal_bridge_angle 45)
 		(uuid "9c59d04f-d2e2-4ca4-85f2-649212dbc611")
 	)
-	(pad "6" smd roundrect
+	(pad "4" smd roundrect
 		(at 2.775 5.835)
 		(size 0.75 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "4b06f82e-90b4-4db3-9df4-8938980db986")
+	)
+	(pad "5" smd roundrect
+		(at -7.085 -2.54)
+		(size 2.55 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "1701d60d-e33d-41a9-8580-790770db94a3")
+	)
+	(pad "6" smd roundrect
+		(at 5.815 -5.08)
+		(size 2.55 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c161a4e5-ae3d-41f6-baf9-8432ac3b3f85")
 	)
 	(embedded_fonts no)
 	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\COM-13834.stp"
