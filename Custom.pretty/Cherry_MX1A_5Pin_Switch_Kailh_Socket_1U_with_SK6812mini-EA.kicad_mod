@@ -1,10 +1,10 @@
-(footprint "Cherry_MX1A_5Pin_Switch_Kailh_Socket_1U"
+(footprint "Cherry_MX1A_5Pin_Switch_Kailh_Socket_1U_with_SK6812mini-EA"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Cherry MX1A 5 pin switch with Kailh socket a nd cutout for SK8612-Mini-EA reverse RGB LED")
-	(tags "Switch")
+	(descr "Cherry MX1A 5 pin switch with Kailh socket and cutout and footprint for SK8612-Mini-EA reverse RGB LED")
+	(tags "Switch cherry mx")
 	(property "Reference" "S**"
 		(at -2.245 5.315 0)
 		(layer "F.SilkS")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Cherry_MX1A_5pin_switch_1"
+	(property "Value" "Cherry_MX1A_5pin_switch"
 		(at -2.245 5.315 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304101800_OPSCO-Optoelectronics-SK6812MINI-EA_C5378731.pdf"
 		(at 0.295 0.235 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -62,6 +62,17 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet_Socket" "http://www.kailh.com/product/Ms/rcb/CPG151101S11-2%20Cream%20hot%20swap%20socket.pdf"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4644bcfb-217e-4da1-8e5d-5f0645737c5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -385,7 +396,7 @@
 		(uuid "fd7b4515-d829-4a3a-976c-6b8eb05f9f03")
 	)
 	(fp_rect
-		(start -4.6 3.33)
+		(start -7.53 3.33)
 		(end 3.41 6.83)
 		(stroke
 			(width 0.05)
@@ -501,11 +512,37 @@
 		(layer "F.Fab")
 		(uuid "84a269e9-6f8d-42ff-b0b2-873e48c7c4f2")
 	)
+	(fp_text user "GND"
+		(at -7.5 6.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "21442039-73b3-4319-99a0-c3f3fba5dd79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${LED_REFERENCE}"
-		(at -7.62 7.8 0)
+		(at -7.8 3.06 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "33f1d86b-f9f4-4777-9a81-7c59f580ade8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "REF**"
+		(at -1.82 -8.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66db6949-e63f-4461-8cc0-f9a3b5c27cd8")
 		(effects
 			(font
 				(size 1 1)
