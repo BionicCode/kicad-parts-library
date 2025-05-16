@@ -493,8 +493,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
-		(size 1.8 1.8)
-		(drill 1.8)
+		(size 1.7526 1.7526)
+		(drill 1.7526)
 		(layers "*.Cu" "*.Mask")
 		(uuid "781ca83c-3419-4169-870a-a26b85164c85")
 	)
@@ -521,8 +521,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 5.08 0)
-		(size 1.8 1.8)
-		(drill 1.8)
+		(size 1.7526 1.7526)
+		(drill 1.7526)
 		(layers "*.Cu" "*.Mask")
 		(uuid "3324daee-245b-49f8-8705-b37d8ebb831d")
 	)
@@ -573,16 +573,6 @@
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "1701d60d-e33d-41a9-8580-790770db94a3")
-	)
-	(group ""
-		(uuid "81a7f390-01fc-4bc1-a63b-c3dd7bd0cd63")
-		(members "02564fc6-226d-40b4-8978-487d9be36bd5" "0517299e-aa4b-46e4-811b-a3e5f933e134"
-			"1701d60d-e33d-41a9-8580-790770db94a3" "30dae65e-df08-4a34-a698-9c89f95dae33"
-			"4f5a2fb8-8050-4111-80bf-799e9841a61b" "50ca46cf-f059-4196-89d5-e8e817331462"
-			"50ce5272-14ba-495f-b345-e94e0841f7cf" "857b0913-ee6f-4d98-8043-9309ef98f848"
-			"ae27f46a-24d7-46c3-a389-a20a2c3656aa" "c161a4e5-ae3d-41f6-baf9-8432ac3b3f85"
-			"d21e0f0e-a70c-4dc1-a126-c9547058e5b0"
-		)
 	)
 	(embedded_fonts no)
 	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\COM-13834.stp"
