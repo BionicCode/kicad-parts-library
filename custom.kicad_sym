@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "SW"
+		(property "Reference" "J"
 			(at 0.254 6.858 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1U Cherry MX compatible switch including an RGB SK6812Mini-EA LED component"
+		(property "Description" "1U Cherry MX compatible switch socket including an RGB SK6812Mini-EA LED component"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,15 +55,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ki_keywords" "1U cherry switch rgb led sk6812 sk6812mini-ea sk6812mini"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(symbol "1U_Cherry_MX_Switch_RGB-SK6812Mini-EA_0_1"
