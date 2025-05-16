@@ -1,14 +1,14 @@
-(footprint "Cherry_MX1A_5Pin_Switch_Kailh_Socket_1U_with_SK6812mini-EA"
+(footprint "2.25u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812mini-EA"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Cherry MX1A 5 pin switch with Kailh socket and cutout and footprint for SK8612-Mini-EA reverse RGB LED")
-	(tags "Switch cherry mx")
+	(descr "2.25u Cherry MX1A 5 pin switch with Kailh socket, stabilizer mounting holes and cutout and footprint for SK8612-Mini-EA reverse RGB LED")
+	(tags "mx")
 	(property "Reference" "REF**"
 		(at 0 -8.325 0)
 		(layer "F.SilkS")
-		(uuid "3edce397-adba-4237-9e7a-c011ddabe060")
+		(uuid "7d6601c7-eb08-4680-9a15-895ffba0e677")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,19 +20,7 @@
 		(at -2.245 5.315 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "7d9345f5-994f-4253-b4ab-f136094049f7")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-			)
-		)
-	)
-	(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304101800_OPSCO-Optoelectronics-SK6812MINI-EA_C5378731.pdf"
-		(at 0.295 0.235 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f571be5c-a3fb-4779-9805-8c5ff856af0a")
+		(uuid "d016d944-d8b6-4022-a282-b0ba0f26aad3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,11 +28,23 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304101800_OPSCO-Optoelectronics-SK6812MINI-EA_C5378731.pdf"
 		(at 0.295 0.235 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "92bf07a5-eb23-4ba5-a290-1c5153384721")
+		(uuid "9b0e1512-2e36-42d3-91c8-2d95feafc95c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Kailh socket with SK6812mini-EA LED mounted in cutout /w stabilizers"
+		(at 0.295 0.235 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38f47dd7-864e-4ffa-923c-efce54d00589")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,6 +68,17 @@
 		(at -4 2.58 0)
 		(layer "F.SilkS")
 		(uuid "001e7915-166a-4d58-886a-a0a1bbc87f58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" "2.25u"
+		(at 0 8.5 0)
+		(layer "F.SilkS")
+		(uuid "7e83a4d9-5915-4e3c-9f94-6b3b00cb0fe6")
 		(effects
 			(font
 				(size 1 1)
@@ -157,8 +168,8 @@
 		(uuid "f30afba3-3cae-4deb-b87f-d1316d32e0e1")
 	)
 	(fp_rect
-		(start -9.525 -9.525)
-		(end 9.525 9.525)
+		(start -21.43125 -9.525)
+		(end 21.43125 9.525)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -271,8 +282,8 @@
 		(uuid "198dc314-7f6e-40ad-9d35-edf6ab5082ed")
 	)
 	(fp_rect
-		(start -9.525 -9.525)
-		(end 9.525 9.525)
+		(start -21.43125 -9.525)
+		(end 21.43125 9.525)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -444,21 +455,8 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "1U"
-		(at -1 9.2 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e787340a-de64-450e-bfab-7fce95820beb")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "1U"
-		(at 1 9.2 0)
+	(fp_text user "${Size}"
+		(at 0 8.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "52eb121f-820c-4647-aa4b-fc8385e2f31e")
@@ -467,11 +465,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom mirror)
+			(justify mirror)
 		)
 	)
 	(fp_text user "${LED_Reference}"
-		(at -6.66 5.58 0)
+		(at 0 5.08 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "545d7058-7cee-4302-9b68-593c3911623d")
@@ -480,11 +478,10 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0.268782 -4.88 0)
 		(layer "F.Fab")
 		(uuid "85c15d2e-0831-4838-8180-8241c152eaa0")
 		(effects
@@ -493,6 +490,20 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at -11.938 -6.985)
+		(size 3.1496 3.1496)
+		(drill 3.1496)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "12070c24-8a82-4a80-a587-8c91937770f0")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.938 8.255)
+		(size 4.0386 4.0386)
+		(drill 4.0386)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ec5343e1-8eec-472a-b880-729265af8ea9")
 	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
@@ -528,6 +539,20 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(uuid "3324daee-245b-49f8-8705-b37d8ebb831d")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.938 -6.985)
+		(size 3.1496 3.1496)
+		(drill 3.1496)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "3681aa6f-b8a1-424f-9632-c42a0d0d85a1")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.938 8.255)
+		(size 4.0386 4.0386)
+		(drill 4.0386)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "050711a0-bfe2-4d0e-a818-a42d2a110c38")
 	)
 	(pad "1" smd roundrect
 		(at -2.775 5.835)
