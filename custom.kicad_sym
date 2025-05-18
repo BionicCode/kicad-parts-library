@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "1.25u_Cherry_MX_Switch_RGB-SK6812MINI-E"
+	(symbol "1.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:1.25u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
+		(property "Footprint" "Custom:1.25u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.25u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED component"
+		(property "Description" "1.25u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -66,15 +66,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "1.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_1_1"
+		(symbol "1.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_1_1"
 			(circle
 				(center -2.032 2.54)
 				(radius 0.508)
@@ -131,7 +123,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -149,92 +141,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "1.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_2_1"
-			(rectangle
-				(start -5.08 1.27)
-				(end 5.08 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "DOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "DIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -245,7 +152,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "1.5u_Cherry_MX_Switch_RGB-SK6812MINI-E"
+	(symbol "1.5u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -265,7 +172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:1.5u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
+		(property "Footprint" "Custom:1.5u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -283,7 +190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED component"
+		(property "Description" "1.5u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -309,15 +216,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "1.5u_Cherry_MX_Switch_RGB-SK6812MINI-E_1_1"
+		(symbol "1.5u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_1_1"
 			(circle
 				(center -2.032 2.54)
 				(radius 0.508)
@@ -374,7 +273,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -392,92 +291,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "1.5u_Cherry_MX_Switch_RGB-SK6812MINI-E_2_1"
-			(rectangle
-				(start -5.08 1.27)
-				(end 5.08 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "DOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "DIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -488,7 +302,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "1.75u_Cherry_MX_Switch_RGB-SK6812MINI-E"
+	(symbol "1.75u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -508,7 +322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:1.75u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
+		(property "Footprint" "Custom:1.75u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -526,7 +340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.75u Cherry MX compatible switch socket including an RGB SK6812Mini-EA LED component"
+		(property "Description" "1.75u Cherry MX compatible switch socket including an RGB SK6812Mini-EA LED cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -552,15 +366,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "1.75u_Cherry_MX_Switch_RGB-SK6812MINI-E_1_1"
+		(symbol "1.75u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_1_1"
 			(circle
 				(center -2.032 2.54)
 				(radius 0.508)
@@ -617,7 +423,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -635,92 +441,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "1.75u_Cherry_MX_Switch_RGB-SK6812MINI-E_2_1"
-			(rectangle
-				(start -5.08 1.27)
-				(end 5.08 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "DOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "DIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -731,7 +452,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "1u_Cherry_MX_Switch_RGB-SK6812MINI-E"
+	(symbol "1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -751,7 +472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
+		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -769,7 +490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED component"
+		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -795,15 +516,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "1u_Cherry_MX_Switch_RGB-SK6812MINI-E_1_1"
+		(symbol "1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_1_1"
 			(circle
 				(center -2.032 2.54)
 				(radius 0.508)
@@ -860,7 +573,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -878,92 +591,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "1u_Cherry_MX_Switch_RGB-SK6812MINI-E_2_1"
-			(rectangle
-				(start -5.08 1.27)
-				(end 5.08 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "DOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "DIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -974,7 +602,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "2.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_Stabilizer"
+	(symbol "2.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_and_stabilizer"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -994,7 +622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:2.25u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
+		(property "Footprint" "Custom:2.25u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1012,7 +640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.25u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED component and stabilizer"
+		(property "Description" "2.25u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout and stabilizer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1038,15 +666,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "2.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_Stabilizer_1_1"
+		(symbol "2.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_and_stabilizer_1_1"
 			(circle
 				(center -2.032 2.54)
 				(radius 0.508)
@@ -1103,7 +723,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1121,92 +741,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "2.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_Stabilizer_2_1"
-			(rectangle
-				(start -5.08 1.27)
-				(end 5.08 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "DOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "DIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1217,7 +752,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "2u_Cherry_MX_Switch_RGB-SK6812MINI-E_StabilizerSK6812MINI-E_Stabilizer"
+	(symbol "2u_Cherry_MX_Switch_RGB-SK6812MINI-E_StabilizerSK6812MINI-E_cutout_and_stabilizer"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1237,7 +772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:2u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
+		(property "Footprint" "Custom:2u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1255,7 +790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED component and stabilizer"
+		(property "Description" "2u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout and stabilizer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1281,15 +816,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "2u_Cherry_MX_Switch_RGB-SK6812MINI-E_StabilizerSK6812MINI-E_Stabilizer_1_1"
+		(symbol "2u_Cherry_MX_Switch_RGB-SK6812MINI-E_StabilizerSK6812MINI-E_cutout_and_stabilizer_1_1"
 			(circle
 				(center -2.032 2.54)
 				(radius 0.508)
@@ -1346,7 +873,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1364,92 +891,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "2u_Cherry_MX_Switch_RGB-SK6812MINI-E_StabilizerSK6812MINI-E_Stabilizer_2_1"
-			(rectangle
-				(start -5.08 1.27)
-				(end 5.08 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "DOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "DIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1460,7 +902,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "6.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_Stabilizer"
+	(symbol "6.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_and_stabilizer"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1480,7 +922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:6.25u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
+		(property "Footprint" "Custom:6.25u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1498,7 +940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6.25u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED component and stabilizer"
+		(property "Description" "6.25u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout and stabilizer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1524,15 +966,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "6.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_Stabilizer_1_1"
+		(symbol "6.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_and_stabilizer_1_1"
 			(circle
 				(center -2.032 2.54)
 				(radius 0.508)
@@ -1589,7 +1023,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1607,92 +1041,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "6.25u_Cherry_MX_Switch_RGB-SK6812MINI-E_Stabilizer_2_1"
-			(rectangle
-				(start -5.08 1.27)
-				(end 5.08 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "DOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "DIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1703,7 +1052,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ISO_Enter_Cherry_MX_Switch_RGB-SK6812MINI-E_Stabilizer"
+	(symbol "ISO_Enter_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_and_stabilizer"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1723,7 +1072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:ISO_Enter_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
+		(property "Footprint" "Custom:ISO_Enter_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1741,7 +1090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ISO Enter Cherry MX compatible switch socket including an RGB SK6812MINI-E LED component and stabilizer"
+		(property "Description" "ISO Enter Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout and stabilizer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1767,15 +1116,7 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "ISO_Enter_Cherry_MX_Switch_RGB-SK6812MINI-E_Stabilizer_1_1"
+		(symbol "ISO_Enter_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_and_stabilizer_1_1"
 			(circle
 				(center -2.032 2.54)
 				(radius 0.508)
@@ -1832,7 +1173,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1850,92 +1191,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "ISO_Enter_Cherry_MX_Switch_RGB-SK6812MINI-E_Stabilizer_2_1"
-			(rectangle
-				(start -5.08 1.27)
-				(end 5.08 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "DOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "DIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
