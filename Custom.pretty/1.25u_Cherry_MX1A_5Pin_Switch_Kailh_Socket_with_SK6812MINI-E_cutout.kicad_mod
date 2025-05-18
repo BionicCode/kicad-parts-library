@@ -1,9 +1,9 @@
-(footprint "1.5u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
+(footprint "1.25u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "1.5u Cherry MX1A 5 pin switch with Kailh socket and cutout and footprint for SK6812MINI-E reverse RGB LED")
+	(descr "1.25u Cherry MX1A 5 pin switch with Kailh socket and cutout for SK6812MINI-E RGB LED")
 	(tags "mx")
 	(property "Reference" "REF**"
 		(at 0 -8.325 0)
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" "Kailh socket with SK6812MINI-E LED mounted in cutout"
+	(property "Description" "Kailh socket with SK6812MINI-E LED cutout"
 		(at 0.295 0.235 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -67,6 +67,7 @@
 	(property "LED_Reference" "LED**"
 		(at -4 2.58 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "001e7915-166a-4d58-886a-a0a1bbc87f58")
 		(effects
 			(font
@@ -75,7 +76,7 @@
 			)
 		)
 	)
-	(property "Size" "1.5u"
+	(property "Size" "1.25u"
 		(at 0 8.5 0)
 		(layer "F.SilkS")
 		(uuid "7e83a4d9-5915-4e3c-9f94-6b3b00cb0fe6")
@@ -169,8 +170,8 @@
 		(uuid "f30afba3-3cae-4deb-b87f-d1316d32e0e1")
 	)
 	(fp_rect
-		(start -14.2875 -9.525)
-		(end 14.2875 9.525)
+		(start -11.90625 -9.525)
+		(end 11.90625 9.525)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -178,29 +179,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "08dfb7f6-cbb1-431f-a0ff-40e4fd3efc77")
-	)
-	(fp_rect
-		(start -3.41 3.33)
-		(end 3.41 6.83)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "aee89381-2785-4d3e-a251-1cd823cdbf0f")
-	)
-	(fp_poly
-		(pts
-			(xy -3.48 5.83) (xy -4.153078 5.547113) (xy -4.153024 5.55) (xy -4.153024 6.09723)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "99096a84-ebdf-4e51-a8ae-ab672cb2b878")
 	)
 	(fp_line
 		(start -7.8 -7.8)
@@ -283,8 +261,8 @@
 		(uuid "198dc314-7f6e-40ad-9d35-edf6ab5082ed")
 	)
 	(fp_rect
-		(start -14.2875 -9.525)
-		(end 14.2875 9.525)
+		(start -11.90625 -9.525)
+		(end 11.90625 9.525)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -325,17 +303,6 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1dc75c51-b10a-4cd1-b619-5ca2e3bd55c2")
-	)
-	(fp_rect
-		(start -7.53 3.33)
-		(end 3.41 6.83)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "a1147489-b3b6-4c9d-9926-76eaa2d2054d")
 	)
 	(fp_line
 		(start -4.29 -2.872715)
@@ -398,17 +365,6 @@
 		(layer "F.Fab")
 		(uuid "d31801c4-1e7c-456f-93b3-ef66c9a0d815")
 	)
-	(fp_rect
-		(start -1.7 3.58)
-		(end 1.7 6.58)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "23d874d1-3be6-4648-bccb-fa2e8bef148c")
-	)
 	(fp_arc
 		(start 0.268782 -2.872715)
 		(mid 1.580341 -2.308063)
@@ -431,42 +387,6 @@
 		(layer "F.Fab")
 		(uuid "0517299e-aa4b-46e4-811b-a3e5f933e134")
 	)
-	(fp_poly
-		(pts
-			(xy -2.4 5.83) (xy -1.726922 6.112887) (xy -1.726976 6.11) (xy -1.726976 5.56277)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Fab")
-		(uuid "84a269e9-6f8d-42ff-b0b2-873e48c7c4f2")
-	)
-	(fp_text user "VDD"
-		(at -5.8 5.835 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "21442039-73b3-4319-99a0-c3f3fba5dd79")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "GND"
-		(at 5 4.325 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "fb7bf496-2d79-420d-95a6-3611a5765967")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${Size}"
 		(at 0 8.5 0)
 		(unlocked yes)
@@ -475,21 +395,10 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify mirror)
-		)
-	)
-	(fp_text user "${LED_Reference}"
-		(at 0 5.08 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "545d7058-7cee-4302-9b68-593c3911623d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -539,38 +448,6 @@
 		(uuid "3324daee-245b-49f8-8705-b37d8ebb831d")
 	)
 	(pad "1" smd roundrect
-		(at -2.775 5.835)
-		(size 0.75 0.82)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "f307c4cf-9b89-40d9-a7d7-ef7f7f66e01d")
-	)
-	(pad "2" smd roundrect
-		(at -2.775 4.325)
-		(size 0.75 0.82)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "a2fa4030-d718-4bd1-b2aa-a9c79dbfdef1")
-	)
-	(pad "3" smd roundrect
-		(at 2.775 4.325)
-		(size 0.75 0.82)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "9c59d04f-d2e2-4ca4-85f2-649212dbc611")
-	)
-	(pad "4" smd roundrect
-		(at 2.775 5.835)
-		(size 0.75 0.82)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "4b06f82e-90b4-4db3-9df4-8938980db986")
-	)
-	(pad "5" smd roundrect
 		(at -5.815 -5.08)
 		(size 2.55 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -578,23 +455,13 @@
 		(thermal_bridge_angle 45)
 		(uuid "c161a4e5-ae3d-41f6-baf9-8432ac3b3f85")
 	)
-	(pad "6" smd roundrect
+	(pad "2" smd roundrect
 		(at 7.085 -2.54)
 		(size 2.55 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "1701d60d-e33d-41a9-8580-790770db94a3")
-	)
-	(group ""
-		(uuid "81a7f390-01fc-4bc1-a63b-c3dd7bd0cd63")
-		(members "02564fc6-226d-40b4-8978-487d9be36bd5" "0517299e-aa4b-46e4-811b-a3e5f933e134"
-			"1701d60d-e33d-41a9-8580-790770db94a3" "30dae65e-df08-4a34-a698-9c89f95dae33"
-			"4f5a2fb8-8050-4111-80bf-799e9841a61b" "50ca46cf-f059-4196-89d5-e8e817331462"
-			"50ce5272-14ba-495f-b345-e94e0841f7cf" "857b0913-ee6f-4d98-8043-9309ef98f848"
-			"ae27f46a-24d7-46c3-a389-a20a2c3656aa" "c161a4e5-ae3d-41f6-baf9-8432ac3b3f85"
-			"d21e0f0e-a70c-4dc1-a126-c9547058e5b0"
-		)
 	)
 	(embedded_fonts no)
 	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\COM-13834.stp"
