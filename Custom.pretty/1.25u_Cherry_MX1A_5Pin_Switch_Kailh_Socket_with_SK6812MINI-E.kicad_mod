@@ -1,9 +1,9 @@
-(footprint "1.75u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812mini-EA"
+(footprint "1.25u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "1.75u Cherry MX1A 5 pin switch with Kailh socket and cutout and footprint for SK8612-Mini-EA reverse RGB LED")
+	(descr "1.25u Cherry MX1A 5 pin switch with Kailh socket and cutout and footprint for SK6812MINI-E reverse RGB LED")
 	(tags "mx")
 	(property "Reference" "REF**"
 		(at 0 -8.325 0)
@@ -11,7 +11,7 @@
 		(uuid "7d6601c7-eb08-4680-9a15-895ffba0e677")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304101800_OPSCO-Optoelectronics-SK6812MINI-EA_C5378731.pdf"
+	(property "Datasheet" "https://www.digikey.de/en/htmldatasheets/production/8367381/0/0/1/sk6812mini-e"
 		(at 0.295 0.235 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" "Kailh socket with SK6812mini-EA LED mounted in cutout"
+	(property "Description" "Kailh socket with SK6812MINI-E LED mounted in cutout"
 		(at 0.295 0.235 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -75,14 +75,15 @@
 			)
 		)
 	)
-	(property "Size" "1.75u"
+	(property "Size" "1.25u"
 		(at 0 8.5 0)
 		(layer "F.SilkS")
 		(uuid "7e83a4d9-5915-4e3c-9f94-6b3b00cb0fe6")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
@@ -168,8 +169,8 @@
 		(uuid "f30afba3-3cae-4deb-b87f-d1316d32e0e1")
 	)
 	(fp_rect
-		(start -16.66875 -9.525)
-		(end 16.66875 9.525)
+		(start -11.90625 -9.525)
+		(end 11.90625 9.525)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -282,8 +283,8 @@
 		(uuid "198dc314-7f6e-40ad-9d35-edf6ab5082ed")
 	)
 	(fp_rect
-		(start -16.66875 -9.525)
-		(end 16.66875 9.525)
+		(start -11.90625 -9.525)
+		(end 11.90625 9.525)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -304,17 +305,6 @@
 		(uuid "c30b69d8-346a-45a6-aea7-368521d22953")
 	)
 	(fp_rect
-		(start -9.53 -7.53)
-		(end 9.52 0.13)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "1dc75c51-b10a-4cd1-b619-5ca2e3bd55c2")
-	)
-	(fp_rect
 		(start -9.525 -9.525)
 		(end 9.525 9.525)
 		(stroke
@@ -324,6 +314,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "fd7b4515-d829-4a3a-976c-6b8eb05f9f03")
+	)
+	(fp_rect
+		(start -9.52 -7.53)
+		(end 9.52 0.13)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1dc75c51-b10a-4cd1-b619-5ca2e3bd55c2")
 	)
 	(fp_rect
 		(start -7.53 3.33)
@@ -442,8 +443,8 @@
 		(layer "F.Fab")
 		(uuid "84a269e9-6f8d-42ff-b0b2-873e48c7c4f2")
 	)
-	(fp_text user "GND"
-		(at -7.5 6.4 0)
+	(fp_text user "VDD"
+		(at -5.8 5.835 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "21442039-73b3-4319-99a0-c3f3fba5dd79")
@@ -452,7 +453,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 5 4.325 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a992dc90-7723-4c05-970e-9ac4f66d7350")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(fp_text user "${Size}"
