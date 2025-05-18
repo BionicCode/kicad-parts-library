@@ -66,4 +66,10 @@ K
 F http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf
 $ENDCMP
 #
+$CMP MMBD1504-TP
+D Switching Diodes
+K
+F https://www.mccsemi.com/pdf/Products/MMBD1501-1505(SOT-23).pdf
+$ENDCMP
+#
 #End Doc Library
