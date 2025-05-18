@@ -72,4 +72,10 @@ K
 F https://www.mccsemi.com/pdf/Products/MMBD1501-1505(SOT-23).pdf
 $ENDCMP
 #
+$CMP MMBD4448HCDW-TP
+D Diode Array 2 Independent 75 V 250mA Surface Mount 6-TSSOP, SC-88, SOT-363
+K
+F https://www.mccsemi.com/pdf/Products/MMBD4448HCQW_AQW_ADW_CDW_SDW_TW(SOT-363).pdf
+$ENDCMP
+#
 #End Doc Library
