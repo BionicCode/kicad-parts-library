@@ -1469,7 +1469,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOT65P222X120-6N"
+		(property "Footprint" "SamacSys_Parts:MMBD4448HCDW"
 			(at 24.13 -94.92 0)
 			(effects
 				(font
