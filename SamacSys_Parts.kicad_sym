@@ -24,7 +24,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "APHF1608LSEEQBDZGKC"
+		(property "Footprint" "SamacSys_Parts:APHF1608LSEEQBDZGKC"
 			(at 29.21 -94.92 0)
 			(effects
 				(font
