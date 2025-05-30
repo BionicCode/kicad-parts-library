@@ -78,4 +78,10 @@ K
 F https://www.mccsemi.com/pdf/Products/MMBD4448HCQW_AQW_ADW_CDW_SDW_TW(SOT-363).pdf
 $ENDCMP
 #
+$CMP 490107671012
+D WURTH ELEKTRONIK - 490107671012 - CONNECTOR, RCPT, 10POS, 2ROW, 1.27MM
+K
+F http://katalog.we-online.de/em/datasheet/490107671012
+$ENDCMP
+#
 #End Doc Library
