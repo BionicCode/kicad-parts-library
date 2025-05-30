@@ -1,29 +1,153 @@
-(module "CAPC1608X87N" (layer F.Cu)
-  (descr "0603B102K160CT")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAPC1608X87N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.22 -0.62) (end 1.22 -0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.22 -0.62) (end 1.22 0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.22 0.62) (end -1.22 0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.22 0.62) (end -1.22 -0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-  (pad 1 smd rect (at -0.67 0 0) (size 0.8 0.94) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.67 0 0) (size 0.8 0.94) (layers F.Cu F.Paste F.Mask))
-  (model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\0603X106M6R3CT.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CAPC1608X87N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0603B102K160CT")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at -0.04 -1.61 0)
+		(layer "F.SilkS")
+		(uuid "bf139950-ff40-491f-9584-a0c207f7455f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPC1608X87N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "290e93c8-db26-4f96-a79c-e08b9bd46ba1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d110056-3415-4877-9679-d7ad7e1aa968")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c09fbf3-12e4-4b45-8b6b-2e60106a56f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.4 -0.8)
+		(end 1.4 0.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b0bc93c3-ef9b-48e5-82ee-0a44a7e5ac77")
+	)
+	(fp_rect
+		(start -1.4 -0.81)
+		(end 1.42 0.81)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "13cec7b0-6e2c-474c-ad15-a5570665b6ce")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b477941-06de-4960-8d5f-9e4979009a0e")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c09fb9a-cd26-4ca7-bd70-15438c0dc2a8")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82a12b4c-2ce8-4e91-8fd2-fb4d0d71d448")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c3a89ac-b378-407e-a01c-cfca18299cf0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dca740e1-405c-4c9b-a638-4760f71f816c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.67 0)
+		(size 0.8 0.94)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "31a36ea3-df1a-4126-a2f9-5a05a7a599aa")
+	)
+	(pad "2" smd rect
+		(at 0.67 0)
+		(size 0.8 0.94)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5b79b21-99c7-4fb1-bf32-9da7cce36075")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\0603X106M6R3CT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

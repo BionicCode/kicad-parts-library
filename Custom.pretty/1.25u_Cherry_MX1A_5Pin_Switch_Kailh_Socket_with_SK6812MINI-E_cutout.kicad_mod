@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "1.25u Cherry MX1A 5 pin switch with Kailh socket and cutout for SK6812MINI-E RGB LED")
 	(tags "mx")
-	(property "Reference" "REF**"
+	(property "Reference" "J**"
 		(at 0 -8.325 0)
 		(layer "F.SilkS")
 		(uuid "7d6601c7-eb08-4680-9a15-895ffba0e677")
@@ -93,7 +93,7 @@
 		(start -7.8 -7.8)
 		(end -7.8 -4.5)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -103,7 +103,7 @@
 		(start -7.8 -7.8)
 		(end -4.5 -7.8)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -113,7 +113,7 @@
 		(start -7.8 7.8)
 		(end -7.8 4.5)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -123,7 +123,7 @@
 		(start -7.8 7.8)
 		(end -4.5 7.8)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -133,7 +133,7 @@
 		(start 7.8 -7.8)
 		(end 4.5 -7.8)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -143,7 +143,7 @@
 		(start 7.8 -7.8)
 		(end 7.8 -4.5)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -153,7 +153,7 @@
 		(start 7.8 7.8)
 		(end 4.5 7.8)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -163,7 +163,7 @@
 		(start 7.8 7.8)
 		(end 7.8 4.5)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -173,7 +173,7 @@
 		(start -11.90625 -9.525)
 		(end 11.90625 9.525)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(fill no)
@@ -184,7 +184,7 @@
 		(start -7.8 -7.8)
 		(end -7.8 -4.5)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(layer "B.SilkS")
@@ -194,7 +194,7 @@
 		(start -7.8 -7.8)
 		(end -4.5 -7.8)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(layer "B.SilkS")
@@ -204,7 +204,7 @@
 		(start -7.8 7.8)
 		(end -7.8 4.5)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(layer "B.SilkS")
@@ -214,7 +214,7 @@
 		(start -7.8 7.8)
 		(end -4.5 7.8)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(layer "B.SilkS")
@@ -224,7 +224,7 @@
 		(start 7.8 -7.8)
 		(end 4.5 -7.8)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(layer "B.SilkS")
@@ -234,7 +234,7 @@
 		(start 7.8 -7.8)
 		(end 7.8 -4.5)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(layer "B.SilkS")
@@ -244,7 +244,7 @@
 		(start 7.8 7.8)
 		(end 4.5 7.8)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(layer "B.SilkS")
@@ -254,7 +254,7 @@
 		(start 7.8 7.8)
 		(end 7.8 4.5)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(layer "B.SilkS")
@@ -264,7 +264,7 @@
 		(start -11.90625 -9.525)
 		(end 11.90625 9.525)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(fill no)
