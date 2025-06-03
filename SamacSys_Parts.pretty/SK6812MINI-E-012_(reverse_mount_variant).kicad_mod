@@ -1,0 +1,223 @@
+(footprint "SK6812MINI-E-012_(reverse_mount_variant)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SK6812MINI-E-012 reverse mount variant (top side faces PCB). Requires cutout.")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at -1.89 -2.39 0)
+		(layer "F.SilkS")
+		(uuid "4bbdac05-f363-4616-8819-4f1937a8d951")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6812MINI-E-012"
+		(at -0.385 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7024e1a2-f240-4506-bd7b-b0ea141c4cc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8554724179550969856"
+		(at -0.76 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0f0d49b-38a9-4f13-a910-c0387be622ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SK6812MINI-E-012 reverse mount variant (top side faces PCB). Requires cutout."
+		(at -0.76 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aec315cd-1dda-4d6f-b1a7-6c8d57c8a7c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.75 -1.65)
+		(end 3.75 1.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c218c654-6687-4575-b260-2cee406efd31")
+	)
+	(fp_poly
+		(pts
+			(xy -3.75 0.75) (xy -4.58 0.37) (xy -4.58 1.15) (xy -3.75 0.74)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "030001f6-2898-4605-98e4-2ee21c11c5b1")
+	)
+	(fp_rect
+		(start -7.75 -3.15)
+		(end 6.96 1.88)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f4651c82-dc20-4780-9136-c979ccdee1fa")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29d33f45-1658-49da-badf-12038ebe90df")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end -1.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4abf3b8e-5379-4ea9-96cb-08f18dfdefae")
+	)
+	(fp_line
+		(start -1.56 0.75)
+		(end -0.96 1.39)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6e2a8d99-c548-4354-bd3f-03af3ed5d7f9")
+	)
+	(fp_line
+		(start 1.6 -1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "116d3827-f15a-42ce-9ee1-9cb80fb33fed")
+	)
+	(fp_line
+		(start 1.6 1.4)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec26a3ba-68bb-462f-be22-7a40a5d3778d")
+	)
+	(fp_poly
+		(pts
+			(xy -2.45 0.73) (xy -1.62 1.11) (xy -1.62 0.33) (xy -2.45 0.74)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "8724f707-073f-4d81-9c06-9b8328f787c8")
+	)
+	(fp_text user "GND"
+		(at -6.2 0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "78c0c684-8bce-4749-9e67-42b4ee5640f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "VDD"
+		(at 5.3 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6a79452-1e18-4f0c-9c17-0cf1aa36a1ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.385 0 0)
+		(layer "F.Fab")
+		(uuid "9798bc0a-0f0e-4aa3-bc00-289519501401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.5 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3522fd8-a590-4c56-b5a9-dc5d9c9c7a74")
+	)
+	(pad "2" smd rect
+		(at 2.5 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62ebb2df-1468-4f4a-8e54-4da244c64b52")
+	)
+	(pad "3" smd rect
+		(at -2.5 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a310583-f4a6-4807-bbf5-e16d40ff70fc")
+	)
+	(pad "4" smd rect
+		(at -2.5 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8ff002f7-743c-4edd-9a7a-e7c25cb15511")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\SK6812MINI-E.stp"
+		(offset
+			(xyz 0 0 0.5500000037)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
