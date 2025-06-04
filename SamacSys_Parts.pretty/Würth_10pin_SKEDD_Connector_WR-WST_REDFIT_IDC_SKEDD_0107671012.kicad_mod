@@ -6,25 +6,24 @@
 	(descr "490107671012 - REDFIT IDC is a solderless reversible direct plug-in connector with SKEDD technology and insulation displacement connection. The SKEDD contacts are plugged directly into the plated through-holes of a PCB. A complete part and a potential error source is eliminated. This results directly in higher process reliability, savings in space, material and process costs")
 	(tags "Switch")
 	(property "Reference" "J**"
-		(at -1.02 -3.51 0)
+		(at -0.94 -5.28 0)
 		(layer "F.SilkS")
 		(uuid "5d4df32d-bf6b-4c6a-8e5d-3f460c00a884")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
+				(thickness 0.2)
 			)
 		)
 	)
-	(property "Value" "Würth_10pin_SKEDD_Connector_WR-WST_REDFIT_IDC_SKEDD_0107671012"
-		(at -1.031 -3.441 0)
+	(property "Value" "Debug"
+		(at 0 5.1 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "fcbf289a-5ba7-4118-9d81-62a2034550fe")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
+				(thickness 0.2)
 			)
 		)
 	)
@@ -57,7 +56,7 @@
 		(start -10.145 -2.8)
 		(end 10.145 -2.8)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -67,7 +66,7 @@
 		(start -10.145 2.8)
 		(end -10.145 -2.8)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -77,7 +76,7 @@
 		(start 10.145 -2.8)
 		(end 10.145 2.8)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -87,7 +86,7 @@
 		(start 10.145 2.8)
 		(end -10.145 2.8)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")

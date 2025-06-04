@@ -6,13 +6,13 @@
 	(descr "CL10A106MQ8NNNC")
 	(tags "Capacitor")
 	(property "Reference" "C**"
-		(at 0.01 -1.47 0)
+		(at 0 -1.74 0)
 		(layer "F.SilkS")
 		(uuid "70806c11-3b9c-4990-af38-6d6534ee7194")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.12)
+				(size 1.27 1.27)
+				(thickness 0.2)
 			)
 		)
 	)

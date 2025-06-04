@@ -5,13 +5,13 @@
 	(layer "F.Cu")
 	(descr "Drawer Type -20℃~+85℃ 3P Contact,Top Horizontal attachment 1mm SMD,P=1mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS")
 	(property "Reference" "REF**"
-		(at -4.42 -0.43 0)
+		(at -4.41 -0.79 0)
 		(layer "F.SilkS")
 		(uuid "70fa807f-5e12-4ba1-9e52-0aaff0c0583f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
+				(thickness 0.2)
 			)
 		)
 	)
@@ -55,7 +55,7 @@
 		(start -6.36 0.58)
 		(end -6.36 4.05)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -65,7 +65,7 @@
 		(start -6.36 4.05)
 		(end -4.9 4.05)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -75,7 +75,7 @@
 		(start -4.9 4.05)
 		(end -4.9 5.17)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -85,7 +85,7 @@
 		(start -4.9 5.17)
 		(end 4.93 5.17)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -95,7 +95,7 @@
 		(start -4.27 0.3)
 		(end -4.27 0.58)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -105,7 +105,7 @@
 		(start -4.27 0.58)
 		(end -6.36 0.58)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -115,7 +115,7 @@
 		(start -1.429424 -0.818955)
 		(end -1.429424 0.3)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -125,7 +125,7 @@
 		(start -1.429424 0.3)
 		(end -4.27 0.3)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -135,7 +135,7 @@
 		(start 1.35 -0.82)
 		(end -1.429424 -0.818955)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -145,7 +145,7 @@
 		(start 1.35 0.291044)
 		(end 1.35 -0.82)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -155,7 +155,7 @@
 		(start 4.2 0.279925)
 		(end 1.35 0.291044)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -165,7 +165,7 @@
 		(start 4.2 0.51)
 		(end 4.2 0.279925)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -175,7 +175,7 @@
 		(start 4.93 5.17)
 		(end 4.93 4.1)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -185,7 +185,7 @@
 		(start 4.94 4.1)
 		(end 6.26 4.1)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -195,7 +195,7 @@
 		(start 6.25 0.51)
 		(end 4.2 0.51)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -205,7 +205,7 @@
 		(start 6.26 4.1)
 		(end 6.25 0.51)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -213,10 +213,11 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1 -0.82) (xy -1.370522 -1.190522) (xy -0.68 -1.190522) (xy -0.68 -1.19) (xy -1 -0.819478) (xy -1.000522 -0.819478)
+			(xy -1.02 -1.04) (xy -1.390522 -1.410522) (xy -0.7 -1.410522) (xy -0.7 -1.41) (xy -1.02 -1.039478)
+			(xy -1.020522 -1.039478)
 		)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(fill yes)

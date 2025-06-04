@@ -6,13 +6,13 @@
 	(descr "0603B102K160CT")
 	(tags "Capacitor")
 	(property "Reference" "C**"
-		(at -0.04 -1.61 0)
+		(at -0.03 -1.75 0)
 		(layer "F.SilkS")
 		(uuid "bf139950-ff40-491f-9584-a0c207f7455f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
+				(thickness 0.2)
 			)
 		)
 	)

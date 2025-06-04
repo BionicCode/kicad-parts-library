@@ -1,30 +1,181 @@
-(module "INDC2016X100N" (layer F.Cu)
-  (descr "0806-2016")
-  (tags "Inductor")
-  (attr smd)
-  (fp_text reference L** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "INDC2016X100N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.725 -1.15) (end 1.725 -1.15) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.725 -1.15) (end 1.725 1.15) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.725 1.15) (end -1.725 1.15) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.725 1.15) (end -1.725 -1.15) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1 -0.8) (end 1 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 -0.8) (end 1 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 0.8) (end -1 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start -1 0.8) (end -1 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 0 -0.7) (end 0 0.7) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -0.9 0 0) (size 1.15 1.8) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.9 0 0) (size 1.15 1.8) (layers F.Cu F.Paste F.Mask))
-  (model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\CIGT201610EH2R2MNE.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "INDC2016X100N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0806-2016")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -0.18 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "925f32f1-1c7b-424e-8fbc-dac1e272fe1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "INDC2016X100N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7b95a1d0-437f-4a06-b9c3-8ecfc1d0abf8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30ed16e2-b1ef-4d66-8a64-fd6d4b906ade")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39ebf240-cfa8-4478-8df9-112594b581a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.7)
+		(end 0 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e9b582a-47f3-4e55-b571-c9e9031f741f")
+	)
+	(fp_line
+		(start -1.725 -1.15)
+		(end 1.725 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d171e18-53f8-417f-875c-58d4ebab84e5")
+	)
+	(fp_line
+		(start -1.725 1.15)
+		(end -1.725 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9871d42a-0bd7-437a-bb7f-ab78275d13dc")
+	)
+	(fp_line
+		(start 1.725 -1.15)
+		(end 1.725 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8145aebb-e0a0-42e6-892d-64c786871177")
+	)
+	(fp_line
+		(start 1.725 1.15)
+		(end -1.725 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b756a7ab-677d-4767-a0af-8c120db3cc43")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "310db240-2089-48a5-88d1-3e06ed735b84")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c50b30c8-4767-4267-8a24-4dc2abe532fa")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36a9429b-19b1-4d2a-b11d-75914247a5c9")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a733ed9-647e-477e-a7f0-724fa31a50b8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "649cc75e-ff41-4626-a712-cbb2a60e6dd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "71a0aa77-6db3-4457-b7eb-b5459017f4bf")
+	)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a74d1a7-55db-4b99-84d3-b5383388c3d1")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\CIGT201610EH2R2MNE.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

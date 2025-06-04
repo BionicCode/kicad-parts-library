@@ -6,13 +6,13 @@
 	(descr "SK6812MINI-EA reverse mount variant (top side faces PCB). Requires cutout.")
 	(tags "LED")
 	(property "Reference" "LED**"
-		(at -1.48 -2.49 0)
+		(at -3.31 -3 0)
 		(layer "F.SilkS")
 		(uuid "38f0b9c2-f760-4683-9f2e-eefdd4bdca04")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
+				(thickness 0.2)
 			)
 		)
 	)
@@ -24,7 +24,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
+				(thickness 0.2)
 			)
 		)
 	)
@@ -57,7 +57,7 @@
 		(start -3.45 -1.65)
 		(end 3.45 1.65)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type default)
 		)
 		(fill no)
@@ -69,7 +69,7 @@
 			(xy -3.5 0.75) (xy -4.33 0.37) (xy -4.33 1.15) (xy -3.5 0.74)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.2)
 			(type solid)
 		)
 		(fill yes)
@@ -138,27 +138,27 @@
 		(uuid "ec26a3ba-68bb-462f-be22-7a40a5d3778d")
 	)
 	(fp_text user "GND"
-		(at -4.3 0.75 0)
+		(at -5 0.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "78c0c684-8bce-4749-9e67-42b4ee5640f3")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
+				(thickness 0.2)
 			)
 			(justify right)
 		)
 	)
 	(fp_text user "VDD"
-		(at 3.5 -0.75 0)
+		(at 4 -0.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a6a79452-1e18-4f0c-9c17-0cf1aa36a1ad")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
+				(thickness 0.2)
 			)
 			(justify left)
 		)
