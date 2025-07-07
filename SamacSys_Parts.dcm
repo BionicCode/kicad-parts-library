@@ -102,4 +102,16 @@ K
 F https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf
 $ENDCMP
 #
+$CMP CD4043BPWR
+D Texas Instruments CD4043BPWR, Quad SR Type Latch, Transparent, 3 State, 3  18 V, 16-Pin TSSOP
+K
+F http://www.ti.com/lit/gpn/cd4043b
+$ENDCMP
+#
+$CMP MC14043BDG
+D Outputs Capable of Driving Two Low-power TTL Loads or One Low-Power Schottky TTL Load Over the Rated Temperature Range; Double Diode Input Protection; Three-State Outputs with Common Enable; Supply Voltage Range = 3.0 Vdc to 18 Vdc; Pb-Free Packages are Available*
+K
+F https://www.onsemi.com/pub/Collateral/MC14043B-D.PDF
+$ENDCMP
+#
 #End Doc Library
