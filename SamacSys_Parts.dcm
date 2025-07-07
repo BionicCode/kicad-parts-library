@@ -114,4 +114,10 @@ K
 F https://www.onsemi.com/pub/Collateral/MC14043B-D.PDF
 $ENDCMP
 #
+$CMP CD4043BDR
+D CMOS Quad NOR R/S Latch with 3-State Outputs
+K
+F http://www.ti.com/lit/ds/symlink/cd4043b.pdf
+$ENDCMP
+#
 #End Doc Library
