@@ -126,4 +126,10 @@ K
 F http://www.ti.com/lit/ds/symlink/cd4049ub.pdf
 $ENDCMP
 #
+$CMP 2N7002W
+D ESD Protected; Low RDS(on); Small Footprint Surface Mount Package; RoHS Compliant
+K
+F https://www.onsemi.com/pub/Collateral/2N7002W-FCS-D.PDF
+$ENDCMP
+#
 #End Doc Library
