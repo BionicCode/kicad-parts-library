@@ -1,30 +1,153 @@
-(module "THRMC1005X55N" (layer F.Cu)
-  (descr "NCU15XH103F60RC")
-  (tags "Thermistor")
-  (attr smd)
-  (fp_text reference RT** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "THRMC1005X55N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.175 -0.55) (end 1.175 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.175 -0.55) (end 1.175 0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.175 0.55) (end -1.175 0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.175 0.55) (end -1.175 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
-  (fp_line (start 0 -0.15) (end 0 0.15) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -0.55 0 90) (size 0.6 0.75) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.55 0 90) (size 0.6 0.75) (layers F.Cu F.Paste F.Mask))
-  (model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\NCU15XH103F60RC.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "THRMC1005X55N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NCU15XH103F60RC")
+	(tags "Thermistor")
+	(property "Reference" "RT**"
+		(at 0.68 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "8f072771-5e24-4b1b-9ab3-a30f3cc4a7bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "THRMC1005X55N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "658a8fb5-4c68-40dc-8677-90aed39aca98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588918385526640640"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18a39311-68eb-44eb-9db3-be5c01ace82e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NTC 10k ±1% 3380k 0402 "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49fddd3b-de96-4fcd-8268-4b2c5dab8768")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.17 -0.56)
+		(end 1.16 0.55)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1aa8f741-878a-4ca9-9ecd-351ec5a981eb")
+	)
+	(fp_line
+		(start -1.175 -0.55)
+		(end 1.175 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96874cd3-14c8-479c-8aa1-30bd22da94b1")
+	)
+	(fp_line
+		(start -1.175 0.55)
+		(end -1.175 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ca9f8a1-1cca-4dec-9f99-86c1ab734282")
+	)
+	(fp_line
+		(start 1.175 -0.55)
+		(end 1.175 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "432c88ff-ea51-420e-b3b8-8cab91840f2a")
+	)
+	(fp_line
+		(start 1.175 0.55)
+		(end -1.175 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e736a5aa-e891-49dc-883c-3d8846bdcb41")
+	)
+	(fp_rect
+		(start -1.17 -0.58)
+		(end 1.17 0.56)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e963b57e-ea53-41b8-bd57-03badd2de4d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "95a19a39-9b8a-4019-96a9-79555b98482a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 0)
+		(size 0.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0b116995-1dd1-4536-9b3d-97e5ca55b00a")
+	)
+	(pad "2" smd rect
+		(at 0.45 0)
+		(size 0.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9205196b-b22a-4f5e-8e65-38b3d30b1005")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\NCU15XH103F60RC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

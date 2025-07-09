@@ -6,7 +6,7 @@
 	(descr "SK6812MINI-EA reverse mount variant (top side faces PCB). Requires cutout.")
 	(tags "LED")
 	(property "Reference" "LED**"
-		(at -3.31 -3 0)
+		(at -1.02 -2.88 0)
 		(layer "F.SilkS")
 		(uuid "38f0b9c2-f760-4683-9f2e-eefdd4bdca04")
 		(effects
