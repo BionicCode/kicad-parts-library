@@ -138,4 +138,10 @@ K
 F https://www.mccsemi.com/pdf/Products/2N7002W(SOT-323).pdf
 $ENDCMP
 #
+$CMP NCU15XH103F60RC
+D NTC Thermistors 10kohm 1005 SMD 1%
+K
+F https://www.murata.com/en-sg/api/pdfdownloadapi?cate=&partno=NCU15XH103F60RC
+$ENDCMP
+#
 #End Doc Library
