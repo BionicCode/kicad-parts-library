@@ -132,4 +132,10 @@ K
 F https://www.onsemi.com/pub/Collateral/2N7002W-FCS-D.PDF
 $ENDCMP
 #
+$CMP 2N7002W-TP
+D Small Signal MOSFETS
+K
+F https://www.mccsemi.com/pdf/Products/2N7002W(SOT-323).pdf
+$ENDCMP
+#
 #End Doc Library
