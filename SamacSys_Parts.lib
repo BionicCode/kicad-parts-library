@@ -618,20 +618,20 @@ ENDDRAW
 ENDDEF
 #
 #SamacSys ECAD Model 2N7002W
-#/990864/1672527/2.50/3/2/MOSFET (N-Channel)
+#/16209635/1672527/2.50/3/3/MOSFET (N-Channel)
 DEF 2N7002W Q 0 30 Y Y 1 F N
 F0 "Q" 450 150 50 H V L CNN
 F1 "2N7002W" 450 50 50 H V L CNN
 F2 "SOT65P210X110-3N" 450 -50 50 H I L CNN
-F3 "https://www.onsemi.com/pub/Collateral/2N7002W-FCS-D.PDF" 450 -150 50 H I L CNN
-F4 "ESD Protected; Low RDS(on); Small Footprint Surface Mount Package; RoHS Compliant" 450 -250 50 H I L CNN "Description"
+F3 "https://www.onsemi.com/pdf/datasheet/2n7002w-fcs-d.pdf" 450 -150 50 H I L CNN
+F4 "N-Channel 60 V 115mA (Ta) 200mW (Ta) Surface Mount SOT-323" 450 -250 50 H I L CNN "Description"
 F5 "1.1" 450 -350 50 H I L CNN "Height"
-F6 "onsemi" 450 -450 50 H I L CNN "Manufacturer_Name"
+F6 "Galaxy" 450 -450 50 H I L CNN "Manufacturer_Name"
 F7 "2N7002W" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
-F8 "512-2N7002W" 450 -650 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/2N7002W?qs=4aVxpR%2FL9VKcZpsZjh0EJg%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
-F10 "2N7002W" 450 -850 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/2n7002w/on-semiconductor?utm_currency=USD&region=nac" 450 -950 50 H I L CNN "Arrow Price/Stock"
+F8 "" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "" 450 -950 50 H I L CNN "Arrow Price/Stock"
 DRAW
 X ~ 1 0 0 100 R 50 50 0 0 P
 X ~ 3 300 400 100 D 50 50 0 0 P

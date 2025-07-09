@@ -127,9 +127,9 @@ F http://www.ti.com/lit/ds/symlink/cd4049ub.pdf
 $ENDCMP
 #
 $CMP 2N7002W
-D ESD Protected; Low RDS(on); Small Footprint Surface Mount Package; RoHS Compliant
+D N-Channel 60 V 115mA (Ta) 200mW (Ta) Surface Mount SOT-323
 K
-F https://www.onsemi.com/pub/Collateral/2N7002W-FCS-D.PDF
+F https://www.onsemi.com/pdf/datasheet/2n7002w-fcs-d.pdf
 $ENDCMP
 #
 $CMP 2N7002W-TP
