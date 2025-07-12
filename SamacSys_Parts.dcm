@@ -150,4 +150,10 @@ K
 F https://www.mouser.in/ProductDetail/Toshiba/TPH1R403NLL1Q?qs=HVbQlW5zcXWxPmEVdb2K1w%3D%3D&srsltid=AfmBOoqRHMGlSDzUAlTxkWXR9G5-gdRWGcO8wnP1ZC8y2IEoxCRQZ0fW
 $ENDCMP
 #
+$CMP BQ25713RSNR
+D NVDC I2C Battery Buck-Boost Charge Controller with System Power Monitor & Processor Hot Monitor
+K
+F http://www.ti.com/lit/gpn/bq25713
+$ENDCMP
+#
 #End Doc Library
