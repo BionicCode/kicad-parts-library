@@ -156,4 +156,10 @@ K
 F http://www.ti.com/lit/gpn/bq25713
 $ENDCMP
 #
+$CMP PMV20XNER
+D Trans MOSFET N-CH 30V 5.7A 3-Pin TO-236AB
+K
+F https://assets.nexperia.com/documents/data-sheet/PMV20XNE.pdf
+$ENDCMP
+#
 #End Doc Library
