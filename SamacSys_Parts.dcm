@@ -162,4 +162,10 @@ K
 F https://assets.nexperia.com/documents/data-sheet/PMV20XNE.pdf
 $ENDCMP
 #
+$CMP SISA14DN-T1-GE3
+D MOSFET 30V Vds 20V Vgs PowerPAK 1212-8
+K
+F https://www.vishay.com/docs/63252/sisa14dn.pdf
+$ENDCMP
+#
 #End Doc Library
