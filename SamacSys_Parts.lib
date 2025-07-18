@@ -682,12 +682,10 @@ F2 "THRMC1005X55N" 550 50 50 H I L CNN
 F3 "https://www.murata.com/en-sg/api/pdfdownloadapi?cate=&partno=NCU15XH103F60RC" 550 -50 50 H I L CNN
 F4 "NTC Thermistors 10kohm 1005 SMD 1%" 550 -150 50 H I L CNN "Description"
 F5 "0.55" 550 -250 50 H I L CNN "Height"
-F6 "Murata Electronics" 550 -350 50 H I L CNN "Manufacturer_Name"
-F7 "NCU15XH103F60RC" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
-F8 "81-NCU15XH103F60RC" 550 -550 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/NCU15XH103F60RC?qs=qkDYIeTQ%252BEmYCjLD3FAufg%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
-F10 "NCU15XH103F60RC" 550 -750 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/ncu15xh103f60rc/murata-manufacturing?utm_currency=USD&region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+F6 "81-NCU15XH103F60RC" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/NCU15XH103F60RC?qs=qkDYIeTQ%252BEmYCjLD3FAufg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "NCU15XH103F60RC" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
 X ~ 1 0 0 200 R 50 50 0 0 P
 X ~ 2 700 0 200 L 50 50 0 0 P
