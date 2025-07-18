@@ -168,4 +168,10 @@ K
 F https://www.vishay.com/docs/63252/sisa14dn.pdf
 $ENDCMP
 #
+$CMP BLM18PG121SN1D
+D Ferrite bead SMD 0603 120R 2A Murata Ferrite Bead (Chip Ferrite Bead), 1.6 x 0.8 x 0.8mm (0603), 120 impedance at 100 MHz
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
 #End Doc Library
