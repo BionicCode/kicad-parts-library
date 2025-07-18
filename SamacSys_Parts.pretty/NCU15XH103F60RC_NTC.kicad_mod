@@ -1,4 +1,4 @@
-(footprint "THRMC1005X55N"
+(footprint "NCU15XH103F60RC_NTC"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "THRMC1005X55N"
+	(property "Value" "NCU15XH103F60RC_NTC"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
