@@ -174,4 +174,10 @@ K
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
+$CMP IHLP2525CZER1R5M51
+D Power Choke Shielded Wirewound 1.5uH 20% 100KHz Powdered Iron 10.6A 0.0132Ohm DCR 2525 T/R
+K
+F https://www.mouser.ch/datasheet/2/427/ihlp2525cz51-1763966.pdf
+$ENDCMP
+#
 #End Doc Library
