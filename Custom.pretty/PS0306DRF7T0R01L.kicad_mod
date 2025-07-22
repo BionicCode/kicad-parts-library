@@ -1,0 +1,150 @@
+(footprint "PS0306DRF7T0R01L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-55℃~+125℃ 10mΩ 500mW Alloy Resistor ±0.5% ±100ppm/℃ 0306 Chip Resistor - Surface Mount ROHS")
+	(tags "4-Terminal SMD Shunt")
+	(property "Reference" "REF**"
+		(at 0.28 -2.29 0)
+		(layer "F.SilkS")
+		(uuid "a8572320-8c61-4437-a5de-54fbb4b8764c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "PS0306DRF7T0R01L"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "d7deabd8-2b3e-48f1-8412-230236f41e4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590905742423769088"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a45eff0-4599-44dd-8d25-2deddac919a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-55℃~+125℃ 10mΩ 500mW Alloy Resistor ±0.5% ±100ppm/℃ 0306 Chip Resistor - Surface Mount ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2dd703e-24e0-4409-afb3-1ee6cccc6c4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.85 -1.2)
+		(end 0.85 1.2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5f8807f2-82f6-401e-bd67-7b910ce51c4f")
+	)
+	(fp_rect
+		(start -0.85 -1.2)
+		(end 0.85 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3834b53d-7835-485a-aa3c-fa9510fe5fcb")
+	)
+	(fp_rect
+		(start -0.4 -0.8)
+		(end 0.4 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f8cd0ca9-292d-4e28-83e8-dc66ed8c862d")
+	)
+	(fp_text user "↑"
+		(at 0.72 -0.36 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "584d22bc-07d1-4b57-901f-ec655fde8e6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "909587a5-68fc-40ca-b632-85f601151773")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.3 0.275)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "98d000f6-b726-4715-95d4-6325534b48df")
+	)
+	(pad "2" smd rect
+		(at -0.3 -0.7)
+		(size 0.4 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0aa72807-2f4e-4592-8274-62bf913fe5ef")
+	)
+	(pad "3" smd rect
+		(at 0.3 -0.7)
+		(size 0.4 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f84870a8-1e5b-42ef-b2b0-0f860740315b")
+	)
+	(pad "4" smd rect
+		(at 0.3 0.275)
+		(size 0.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e642435-9d32-4506-bc82-64479efa4e10")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Vishay_WSKW0612.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
