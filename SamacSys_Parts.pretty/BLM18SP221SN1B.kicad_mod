@@ -1,30 +1,182 @@
-(module "BLM18SP221SN1B" (layer F.Cu)
-  (descr "BLM18_3 L=1.6 W=0.8 T=0.8")
-  (tags "Ferrite Bead")
-  (attr smd)
-  (fp_text reference FB** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "BLM18SP221SN1B" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.475 -0.75) (end 1.475 -0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.475 -0.75) (end 1.475 0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.475 0.75) (end -1.475 0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.475 0.75) (end -1.475 -0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0 -0.3) (end 0 0.3) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -0.675 -0 0) (size 0.650 0.700) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.675 -0 0) (size 0.650 0.700) (layers F.Cu F.Paste F.Mask))
-  (model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\BLM18PG121SN1D.stp"
-    (at (xyz 0 -0.015748031730727 0.015748031730727))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "BLM18SP221SN1B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1 120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads ROHS BLM18_3 L=1.6 W=0.8 T=0.8")
+	(tags "Ferrite Bead")
+	(property "Reference" "FB**"
+		(at 0.42 -1.67 0)
+		(layer "F.SilkS")
+		(uuid "a504c17c-d30b-46bb-81c9-c20fbdf60d16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "BLM18SP221SN1B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "131e03f4-2546-4889-94bc-9209ff2ea9f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556813856707002368"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13939ad3-2937-4c06-8fb8-488dd4e39694")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1 120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a726dc3-b6eb-4bf5-8b73-352d05a559fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.47 -0.75)
+		(end 1.47 0.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "83bab021-a9c7-45de-9b7a-ba6ec4a0ed26")
+	)
+	(fp_line
+		(start -1.475 -0.75)
+		(end 1.475 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a052317-54b8-4b4b-bdab-8995c17c165f")
+	)
+	(fp_line
+		(start -1.475 0.75)
+		(end -1.475 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb4ee61a-1a14-4d2c-be2c-043325e06d5b")
+	)
+	(fp_line
+		(start 1.475 -0.75)
+		(end 1.475 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfd7fdf8-505b-4284-8712-bb70478a5636")
+	)
+	(fp_line
+		(start 1.475 0.75)
+		(end -1.475 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f373d074-de99-4b29-8af0-f9e4867f2c69")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cfd3b986-bb35-48b8-b47e-53130b9e5464")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6569fd0c-8b35-4c63-815f-159909de0283")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85f09cc6-8cf6-40f9-861b-3f8e90c2360c")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b42ae84-8f6a-453d-a2a1-bc64cc9f167d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2389d500-6f8e-4e53-93c7-223c62b340c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "70a240a5-3a94-4d33-805b-108970d18adb")
+	)
+	(pad "2" smd rect
+		(at 0.675 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cebbb559-aa17-4f88-9658-14d6f82f1971")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\BLM18PG121SN1D.stp"
+		(offset
+			(xyz 0 -0.4 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
