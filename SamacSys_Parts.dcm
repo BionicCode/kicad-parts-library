@@ -180,4 +180,16 @@ K
 F https://www.mouser.ch/datasheet/2/427/ihlp2525cz51-1763966.pdf
 $ENDCMP
 #
+$CMP ISC019N03L5SATMA1
+D MOSFET TRENCH <= 40V
+K
+F https://www.infineon.com/dgdl/Infineon-ISC019N03L5S-DataSheet-v02_00-EN.pdf?fileId=5546d46270c4f93e0170e8a6c201097f
+$ENDCMP
+#
+$CMP MM3Z15VT1G
+D Wide Zener Voltage Range Selection, 2.4V to 75V; VZ Tolerance Selection of +/-5% (C Series); Very Small and Thin SMD package; Matte Tin(Sn) finish, Pb Free
+K
+F https://www.onsemi.com/pub/Collateral/MM3Z2V4T1-D.PDF
+$ENDCMP
+#
 #End Doc Library
