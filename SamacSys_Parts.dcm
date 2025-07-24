@@ -192,4 +192,16 @@ K
 F https://www.onsemi.com/pub/Collateral/MM3Z2V4T1-D.PDF
 $ENDCMP
 #
+$CMP TPS25751SRSMR
+D USB Interface IC USB Type-C and USB Power Delivery (PD) controller with integrated power switches
+K
+F https://www.ti.com/lit/ds/symlink/tps25751.pdf
+$ENDCMP
+#
+$CMP NRF52832-QFAA-G-R7
+D RF System on a Chip - SoC Versatile Bluetooth 5.3 SoC supporting Bluetooth Low Energy, Bluetooth mesh and NFC
+K
+F https://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.8.pdf
+$ENDCMP
+#
 #End Doc Library
