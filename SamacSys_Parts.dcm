@@ -204,4 +204,10 @@ K
 F https://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.8.pdf
 $ENDCMP
 #
+$CMP NRF54L05-QFAA-R
+D RF System on a Chip - SoC Ultra-low-power wireless SoC for Bluetooth LE, Bluetooth Channel Sounding, Bluetooth Mesh, Zigbee, Thread, and proprietary 2.4 GHz protocols
+K
+F https://www.mouser.co.uk/datasheet/2/297/nRF54L15_nRF54L10_nRF54L05_Datasheet_v0_8-3568773.pdf
+$ENDCMP
+#
 #End Doc Library
