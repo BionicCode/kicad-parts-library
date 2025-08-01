@@ -228,4 +228,10 @@ K
 F https://www.ti.com/lit/gpn/TPS25751
 $ENDCMP
 #
+$CMP 0402CG1R5C500NT
+D Ceramic capacitor SMD-0402 1,5pF /50V C0G# C +-0,25pF%, Fenghua, RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0402CG1R5C500NT_C1552.pdf
+$ENDCMP
+#
 #End Doc Library
