@@ -1382,4 +1382,29 @@ P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model GJM0225C1CR30WB01L
+#/11484739/1672527/2.50/2/2/Capacitor
+DEF GJM0225C1CR30WB01L C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GJM0225C1CR30WB01L" 350 150 50 H V L CNN
+F2 "GJM02" 350 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM0225C1CR30WB01-01A.pdf" 350 -50 50 H I L CNN
+F4 "High Q Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment (<=100Vdc), 01005" 350 -150 50 H I L CNN "Description"
+F5 "0.22" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "GJM0225C1CR30WB01L" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-GJM0225C1CR30WB1L" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GJM0225C1CR30WB1L" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
 #End Library

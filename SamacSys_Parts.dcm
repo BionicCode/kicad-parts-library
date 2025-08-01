@@ -258,4 +258,10 @@ K
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
+$CMP GJM0225C1CR30WB01L
+D High Q Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment (<=100Vdc), 01005
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM0225C1CR30WB01-01A.pdf
+$ENDCMP
+#
 #End Doc Library
