@@ -1310,4 +1310,76 @@ A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model LQW15AN3N5B8ZD
+#/1599065/1672527/2.50/2/2/Inductor
+DEF LQW15AN3N5B8ZD L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "LQW15AN3N5B8ZD" 650 150 50 H V L CNN
+F2 "LQW15CNR20J00B" 650 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9138.pdf" 650 -50 50 H I L CNN
+F4 "LQW15AN_8Z Series Inductor 3.5nH +/-0.1nH 0402 (1005)" 650 -150 50 H I L CNN "Description"
+F5 "0.6" 650 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "LQW15AN3N5B8ZD" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-LQW15AN3N5B8ZD" 650 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-LQW15AN3N5B8ZD" 650 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GJM1555C1H2R0WB01D
+#/1469190/1672527/2.50/2/2/Capacitor
+DEF GJM1555C1H2R0WB01D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GJM1555C1H2R0WB01D" 350 150 50 H V L CNN
+F2 "CAPC1005X55N" 350 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H2R0WB01-01A.pdf" 350 -50 50 H I L CNN
+F4 "Capacitor GJM15_0.10 L=1.0mm W=0.5mm T=0.5mm" 350 -150 50 H I L CNN "Description"
+F5 "0.55" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "GJM1555C1H2R0WB01D" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-GJM1555C1H2R0WB1D" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GJM1555C1H2R0WB01D?qs=YLLXL5qGyDstO156VbiHGA%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "GJM1555C1H2R0WB01D" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/gjm1555c1h2r0wb01d/murata-manufacturing?utm_currency=USD&region=nac" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BLM18HE152SN1D
+#/12902885/1672527/2.50/2/5/Ferrite Bead
+DEF BLM18HE152SN1D FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "BLM18HE152SN1D" 650 200 50 H V L CNN
+F2 "BLM18SP221SN1B" 650 100 50 H I L CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" 650 0 50 H I L CNN
+F4 "Ferrite Beads 0603 1500ohms" 650 -100 50 H I L CNN "Description"
+F5 "0.95" 650 -200 50 H I L CNN "Height"
+F6 "Murata Electronics" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BLM18HE152SN1D" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-BLM18HE152SN1D" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM18HE152SN1D?qs=vNc2DXHODiLhczkT1FKS1Q%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BLM18HE152SN1D" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/blm18he152sn1d/murata-manufacturing?utm_currency=USD&region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

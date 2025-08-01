@@ -240,4 +240,22 @@ K
 F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf
 $ENDCMP
 #
+$CMP LQW15AN3N5B8ZD
+D LQW15AN_8Z Series Inductor 3.5nH +/-0.1nH 0402 (1005)
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9138.pdf
+$ENDCMP
+#
+$CMP GJM1555C1H2R0WB01D
+D Capacitor GJM15_0.10 L=1.0mm W=0.5mm T=0.5mm
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H2R0WB01-01A.pdf
+$ENDCMP
+#
+$CMP BLM18HE152SN1D
+D Ferrite Beads 0603 1500ohms
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
 #End Doc Library
