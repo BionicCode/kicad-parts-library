@@ -234,4 +234,10 @@ K
 F https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0402CG1R5C500NT_C1552.pdf
 $ENDCMP
 #
+$CMP LQW15AN2N7B00D
+D LQW15AN_00 Series Inductor 2.7nH +/-0.1nH 0402 (1005)
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf
+$ENDCMP
+#
 #End Doc Library
