@@ -6,7 +6,7 @@
 	(descr "SOT23_2022")
 	(tags "MOSFET (N-Channel)")
 	(property "Reference" "Q**"
-		(at -0.47 -2.89 0)
+		(at -0.47 -2.775 0)
 		(layer "F.SilkS")
 		(uuid "8c849084-2d30-4010-bfb9-9e8c17addf01")
 		(effects
@@ -54,8 +54,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.735 -1.685)
-		(end 1.755 1.675)
+		(start -1.285 -1.745)
+		(end 1.285 1.745)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -64,45 +64,16 @@
 		(layer "F.SilkS")
 		(uuid "ec283b72-f7b5-496c-a989-15fca2498987")
 	)
-	(fp_line
-		(start -1.735 -1.87)
-		(end 1.765 -1.87)
+	(fp_rect
+		(start -1.385 -1.845)
+		(end 1.385 1.845)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9ebc0d1f-62fd-41f8-9853-7e045e4c58df")
-	)
-	(fp_line
-		(start -1.735 1.88)
-		(end -1.735 -1.87)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f196fcd9-086e-410f-9718-123747cbb624")
-	)
-	(fp_line
-		(start 1.765 -1.87)
-		(end 1.765 1.88)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "e2722ba0-7791-40c1-993c-81112c2c7aed")
-	)
-	(fp_line
-		(start 1.765 1.88)
-		(end -1.735 1.88)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "8b5193bf-0d57-4df0-9773-20ac10e9dc5c")
+		(uuid "f7d3b97f-1fa7-4c77-8eb2-5a7cafc8c5f4")
 	)
 	(fp_line
 		(start -1.435 -0.645)
@@ -166,19 +137,19 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.635 0.905 180)
+		(at -0.635 0.905)
 		(size 0.7 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4a41fe3e-690f-4ff7-8926-8bc9d8e006e3")
 	)
 	(pad "2" smd rect
-		(at 0.665 0.905 180)
+		(at 0.665 0.905)
 		(size 0.7 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ef685f58-d641-498e-a52e-5bb7d1586821")
 	)
 	(pad "3" smd rect
-		(at 0.015 -0.995 180)
+		(at 0.015 -0.995)
 		(size 0.7 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "38fdba1f-9d37-4255-982a-e023412b5f09")

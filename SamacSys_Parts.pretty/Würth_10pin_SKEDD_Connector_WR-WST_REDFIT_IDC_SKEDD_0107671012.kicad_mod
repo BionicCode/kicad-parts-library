@@ -6,7 +6,7 @@
 	(descr "490107671012 - REDFIT IDC is a solderless reversible direct plug-in connector with SKEDD technology and insulation displacement connection. The SKEDD contacts are plugged directly into the plated through-holes of a PCB. A complete part and a potential error source is eliminated. This results directly in higher process reliability, savings in space, material and process costs")
 	(tags "Switch")
 	(property "Reference" "J**"
-		(at -0.94 -5.28 0)
+		(at -0.975 -4.075 0)
 		(layer "F.SilkS")
 		(uuid "5d4df32d-bf6b-4c6a-8e5d-3f460c00a884")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Debug"
-		(at 0 5.1 0)
+		(at -0.025 4.25 0)
 		(layer "F.SilkS")
 		(uuid "fcbf289a-5ba7-4118-9d81-62a2034550fe")
 		(effects
