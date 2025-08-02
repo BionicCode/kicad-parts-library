@@ -3,6 +3,9 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "0402CG1R5C500NT_1.5pF"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(hide yes)
 		)
@@ -2398,7 +2401,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 31.75 7.62 0)
+			(at 5.588 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2410,7 @@
 			)
 		)
 		(property "Value" "BQ25798RQMR"
-			(at 31.75 5.08 0)
+			(at 5.588 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,6 +5453,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "GJM0225C1CR30WB01L_0.3pF_Capacitor"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(hide yes)
 		)
@@ -5618,7 +5624,10 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "GJM1555C1H2R0WB01D_2pF_Capacitor"
+	(symbol "GJM0225C1CR30WB01L_0.3pF_Capacitor_Small"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(hide yes)
 		)
@@ -5626,7 +5635,157 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 8.89 6.35 0)
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "0.3pF"
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:GJM02"
+			(at 1.27 -96.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM0225C1CR30WB01-01A.pdf"
+			(at 1.27 -196.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.3PF 16V C0G 01005 High Q Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment (<=100Vdc), 01005"
+			(at -7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Consigned"
+			(at -7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "GJM0225C1CR30WB01L"
+			(at -7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" "490-GJM0225C1CR30WB01LCT-ND"
+			(at -7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GJM0225C1CR30WB01L_0.3pF_Capacitor_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GJM0225C1CR30WB01L_0.3pF_Capacitor_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "GJM1555C1H2R0WB01D_2pF_Capacitor"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 5.08 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5794,7 @@
 			)
 		)
 		(property "Value" "2pF"
-			(at 8.89 3.81 0)
+			(at 5.08 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,6 +5928,178 @@
 			(pin passive line
 				(at 12.7 0 180)
 				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "GJM1555C1H2R0WB01D_2pF_Capacitor_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "2pF"
+			(at 0 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:CAPC1005X55N"
+			(at 3.81 -96.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H2R0WB01-01A.pdf"
+			(at 3.81 -196.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C88885"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "GJM1555C1H2R0WB01D"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GJM1555C1H2R0WB01D_2pF_Capacitor_Small_1_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.508 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.54) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 2.54) (xy 2.032 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.032 0 0)
+				(length 2.032)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 4.572 0 180)
+				(length 2.032)
 				(name "2"
 					(effects
 						(font
@@ -6479,6 +6810,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "LQW15AN2N7B00D_2.7nH_Inductor"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(hide yes)
 		)
@@ -6486,7 +6820,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 16.51 6.35 0)
+			(at 7.112 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6829,7 @@
 			)
 		)
 		(property "Value" "2.7nH"
-			(at 16.51 3.81 0)
+			(at 7.112 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6981,10 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LQW15AN3N5B8ZD_3.5nH_Inductor"
+	(symbol "LQW15AN2N7B00D_2.7nH_Inductor_Small"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(hide yes)
 		)
@@ -6655,7 +6992,181 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 16.51 6.35 0)
+			(at -1.524 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "2.7nH"
+			(at -1.524 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+			(at 6.35 -96.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0050.pdf"
+			(at 6.35 -196.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LQW15AN_00 Series Inductor 2.7nH +/-0.1nH 0402 (1005)"
+			(at -10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at -10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C91239"
+			(at -10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "LQW15AN2N7B00D"
+			(at -10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LQW15AN2N7B00D_2.7nH_Inductor_Small_0_1"
+			(arc
+				(start -0.762 1.27)
+				(mid -0.254 1.7758)
+				(end 0.254 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.254 1.27)
+				(mid 0.762 1.7758)
+				(end 1.27 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 1.27)
+				(mid 1.778 1.7758)
+				(end 2.286 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.286 1.27)
+				(mid 2.794 1.7758)
+				(end 3.302 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LQW15AN2N7B00D_2.7nH_Inductor_Small_1_1"
+			(pin passive line
+				(at -1.27 1.27 0)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 1.27 180)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LQW15AN3N5B8ZD_3.5nH_Inductor"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 7.366 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +7175,7 @@
 			)
 		)
 		(property "Value" "3.5nH"
-			(at 16.51 3.81 0)
+			(at 7.366 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,6 +7310,180 @@
 				(at 20.32 0 180)
 				(length 5.08)
 				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LQW15AN3N5B8ZD_3.5nH_Inductor_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "3.5nH"
+			(at -1.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+			(at 6.35 -96.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9138.pdf"
+			(at 6.35 -196.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LQW15AN_8Z Series Inductor 3.5nH +/-0.1nH 0402 (1005)"
+			(at -10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Consigned"
+			(at -10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "LQW15AN3N5B8ZD"
+			(at -10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" "490-15427-1-ND"
+			(at -10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LQW15AN3N5B8ZD_3.5nH_Inductor_Small_0_1"
+			(arc
+				(start -0.762 1.27)
+				(mid -0.254 1.7758)
+				(end 0.254 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.254 1.27)
+				(mid 0.762 1.7758)
+				(end 1.27 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 1.27)
+				(mid 1.778 1.7758)
+				(end 2.286 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.286 1.27)
+				(mid 2.794 1.7758)
+				(end 3.302 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LQW15AN3N5B8ZD_3.5nH_Inductor_Small_1_1"
+			(pin passive line
+				(at -1.27 1.27 0)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 1.27 180)
+				(length 0.508)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8577,6 +9262,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "NCU15XH103F60RC"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(hide yes)
 		)
@@ -8584,7 +9272,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "RT"
-			(at 13.97 6.35 0)
+			(at 6.096 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8592,8 +9280,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "NCU15XH103F60RC"
-			(at 13.97 3.81 0)
+		(property "Value" "10k 1% NTC"
+			(at 6.096 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8601,7 +9289,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "THRMC1005X55N"
+		(property "Footprint" "SamacSys_Parts:NCU15XH103F60RC_NTC"
 			(at 13.97 -96.19 0)
 			(effects
 				(font
@@ -8630,96 +9318,184 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 13.97 -396.19 0)
+		(property "JLCPCB.Kind" "Extended"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-NCU15XH103F60RC"
-			(at 13.97 -496.19 0)
+		(property "JLCPCB Part #" "C237326"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/NCU15XH103F60RC?qs=qkDYIeTQ%252BEmYCjLD3FAufg%3D%3D"
-			(at 13.97 -596.19 0)
+		(property "MFR.Part #" "NCU15XH103F60RC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 13.97 -696.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "NCU15XH103F60RC_0_1"
+			(arc
+				(start 6.096 -2.159)
+				(mid 6.3292 -2.434)
+				(end 6.35 -2.794)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(justify left top)
-				(hide yes)
+				(fill
+					(type none)
+				)
 			)
-		)
-		(property "Manufacturer_Part_Number" "NCU15XH103F60RC"
-			(at 13.97 -796.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(arc
+				(start 5.842 -2.794)
+				(mid 5.9164 -2.6144)
+				(end 6.096 -2.54)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(justify left top)
-				(hide yes)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.096 -3.048)
+				(mid 5.9164 -2.9736)
+				(end 5.842 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -2.794)
+				(mid 6.2756 -2.9736)
+				(end 6.096 -3.048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 6.35 -1.016)
+				(end 11.43 1.016)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -1.778) (xy 7.366 -1.778) (xy 10.414 1.778) (xy 11.43 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.477 -3.175)
+				(mid 6.5735 -3.0506)
+				(end 6.731 -3.048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.731 -2.54) (xy 6.096 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.731 -2.54)
+				(mid 6.9106 -2.6144)
+				(end 6.985 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.985 -2.794)
+				(mid 6.9106 -2.9736)
+				(end 6.731 -3.048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.287 -1.778) (xy 12.573 -1.778) (xy 11.811 -2.032) (xy 11.811 -1.524) (xy 12.573 -1.778)
+					(xy 12.319 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.573 -2.54) (xy 10.287 -2.54) (xy 11.049 -2.794) (xy 11.049 -2.286) (xy 10.287 -2.54) (xy 10.541 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
 			)
 		)
 		(symbol "NCU15XH103F60RC_1_1"
-			(rectangle
-				(start 5.08 1.27)
-				(end 12.7 -1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.588 -2.032) (xy 7.112 -2.032)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.668 2.032) (xy 7.112 -2.032)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
-				(at 0 0 0)
-				(length 5.08)
-				(name "1"
+				(at 5.08 0 0)
+				(length 1.27)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8735,9 +9511,9 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 0 180)
-				(length 5.08)
-				(name "2"
+				(at 12.7 0 180)
+				(length 1.27)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10857,76 +11633,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.95"
-			(at 62.23 -377.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nordic Semiconductor"
-			(at 62.23 -477.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NRF54L05-QFAA-R"
-			(at 62.23 -577.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "949-NRF54L05-QFAA-R"
-			(at 62.23 -677.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/NRF54L05-QFAA-R?qs=7%2F6SraaimPSM2R8rlVnK3A%3D%3D"
-			(at 62.23 -777.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "NRF54L05-QFAA-R"
-			(at 62.23 -877.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/nrf54l05-qfaa-r/nordic-semiconductor?utm_currency=USD&region=nac"
-			(at 62.23 -977.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(symbol "NRF54L05-QFAA-R_1_1"
 			(rectangle
 				(start 5.08 20.32)
@@ -11680,14 +12386,14 @@
 			(pin passive line
 				(at 66.04 -10.16 180)
 				(length 5.08)
-				(name "VSS_PA"
+				(name "ANT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "32"
+				(number "31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11698,14 +12404,14 @@
 			(pin passive line
 				(at 66.04 -12.7 180)
 				(length 5.08)
-				(name "ANT"
+				(name "VSS_PA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "31"
+				(number "32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13798,7 +14504,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 44.45 7.62 0)
+			(at 5.334 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13807,7 +14513,7 @@
 			)
 		)
 		(property "Value" "TPS25751DREFR"
-			(at 44.45 5.08 0)
+			(at 5.334 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15746,7 +16452,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 19.05 7.62 0)
+			(at 5.334 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15755,7 +16461,7 @@
 			)
 		)
 		(property "Value" "Würth_10pin_SKEDD_Connector_WR-WST_REDFIT_IDC_SKEDD_0107671012"
-			(at 19.05 5.08 0)
+			(at 5.334 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
