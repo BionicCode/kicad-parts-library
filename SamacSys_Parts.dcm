@@ -264,4 +264,10 @@ K
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM0225C1CR30WB01-01A.pdf
 $ENDCMP
 #
+$CMP 0402WGF1001TCE
+D 1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor
+K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1001TCE_C11702.pdf
+$ENDCMP
+#
 #End Doc Library
