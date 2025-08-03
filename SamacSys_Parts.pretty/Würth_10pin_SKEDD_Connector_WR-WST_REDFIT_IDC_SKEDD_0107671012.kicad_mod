@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Debug"
+	(property "Value" "SWD Debug"
 		(at -0.025 4.25 0)
 		(layer "F.SilkS")
 		(uuid "fcbf289a-5ba7-4118-9d81-62a2034550fe")

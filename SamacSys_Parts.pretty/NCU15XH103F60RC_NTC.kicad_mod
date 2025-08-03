@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "NCU15XH103F60RC_NTC"
+	(property "Value" "10k NTC"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)

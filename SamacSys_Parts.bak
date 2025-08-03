@@ -170,6 +170,156 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "0402CG4R7C500NT_4.7pF"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at -2.286 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "4.7pF"
+			(at -2.286 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Custom:C_0402_1005Metric"
+			(at 7.62 -93.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707242876227584"
+			(at 7.62 -193.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1569"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0402CG4R7C500NT"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0402CG4R7C500NT_4.7pF_0_1"
+			(polyline
+				(pts
+					(xy -0.508 -1.524) (xy -0.508 1.524)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 1.524)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0402CG4R7C500NT_4.7pF_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "0402WGF1001TCE_1k"
 		(pin_numbers
 			(hide yes)
@@ -198,7 +348,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "SamacSys_Parts:0402WGF1001TCE_1k_0402"
 			(at 13.97 -96.19 0)
 			(effects
 				(font
@@ -359,7 +509,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 5.08 5.588 0)
+			(at -1.778 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,7 +518,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 5.08 3.048 0)
+			(at -1.778 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,8 +526,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC1005X40N"
-			(at 13.97 -96.19 0)
+		(property "Footprint" "SamacSys_Parts:0402WGF1001TCE_1k_0402"
+			(at 7.62 -96.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +537,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
-			(at 13.97 -196.19 0)
+			(at 7.62 -196.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +547,7 @@
 			)
 		)
 		(property "Description" "1K +/-1% 1/16W +/-100ppm/ 0402 Chip Resistor"
-			(at 0 0 0)
+			(at -6.35 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +556,7 @@
 			)
 		)
 		(property "JLCPCB.Kind" "Basic"
-			(at 0 0 0)
+			(at -6.35 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +565,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C11702"
-			(at 0 0 0)
+			(at -6.35 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,7 +574,7 @@
 			)
 		)
 		(property "MFR.Part #" "0402WGF1001TCE"
-			(at 0 0 0)
+			(at -6.35 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,22 +582,24 @@
 				(hide yes)
 			)
 		)
-		(symbol "0402WGF1001TCE_1k_Small_1_1"
+		(symbol "0402WGF1001TCE_1k_Small_0_1"
 			(rectangle
-				(start 5.08 1.27)
-				(end 12.7 -1.27)
+				(start -1.778 -0.762)
+				(end 1.778 0.762)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
+		)
+		(symbol "0402WGF1001TCE_1k_Small_1_1"
 			(pin passive line
-				(at 0 0 0)
-				(length 5.08)
-				(name "1"
+				(at -2.54 0 0)
+				(length 0.762)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -463,9 +615,9 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 0 180)
-				(length 5.08)
-				(name "2"
+				(at 2.54 0 180)
+				(length 0.762)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7150,7 +7302,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+		(property "Footprint" "SamacSys_Parts:LQW15AN2N7B00D_2.7nH"
 			(at 16.51 -96.19 0)
 			(effects
 				(font
@@ -7322,7 +7474,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+		(property "Footprint" "SamacSys_Parts:LQW15AN2N7B00D_2.7nH"
 			(at 6.35 -96.19 0)
 			(effects
 				(font
@@ -7496,7 +7648,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+		(property "Footprint" "SamacSys_Parts:LQW15AN3N5B8ZD_3.5nH"
 			(at 16.51 -96.19 0)
 			(effects
 				(font
@@ -7668,7 +7820,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+		(property "Footprint" "SamacSys_Parts:LQW15AN3N5B8ZD_3.5nH"
 			(at 6.35 -96.19 0)
 			(effects
 				(font

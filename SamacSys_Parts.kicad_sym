@@ -170,6 +170,156 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "0402CG4R7C500NT_4.7pF"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at -2.286 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "4.7pF"
+			(at -2.286 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Custom:C_0402_1005Metric"
+			(at 7.62 -93.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707242876227584"
+			(at 7.62 -193.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1569"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "0402CG4R7C500NT"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0402CG4R7C500NT_4.7pF_0_1"
+			(polyline
+				(pts
+					(xy -0.508 -1.524) (xy -0.508 1.524)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 1.524)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0402CG4R7C500NT_4.7pF_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "0402WGF1001TCE_1k"
 		(pin_numbers
 			(hide yes)
@@ -198,7 +348,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "SamacSys_Parts:0402WGF1001TCE_1k_0402"
 			(at 13.97 -96.19 0)
 			(effects
 				(font
@@ -376,7 +526,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC1005X40N"
+		(property "Footprint" "SamacSys_Parts:0402WGF1001TCE_1k_0402"
 			(at 7.62 -96.19 0)
 			(effects
 				(font
@@ -7152,7 +7302,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+		(property "Footprint" "SamacSys_Parts:LQW15AN2N7B00D_2.7nH"
 			(at 16.51 -96.19 0)
 			(effects
 				(font
@@ -7324,7 +7474,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+		(property "Footprint" "SamacSys_Parts:LQW15AN2N7B00D_2.7nH"
 			(at 6.35 -96.19 0)
 			(effects
 				(font
@@ -7498,7 +7648,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+		(property "Footprint" "SamacSys_Parts:LQW15AN3N5B8ZD_3.5nH"
 			(at 16.51 -96.19 0)
 			(effects
 				(font
@@ -7670,7 +7820,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQW15CNR20J00B"
+		(property "Footprint" "SamacSys_Parts:LQW15AN3N5B8ZD_3.5nH"
 			(at 6.35 -96.19 0)
 			(effects
 				(font
@@ -17087,100 +17237,4 @@
 		)
 		(embedded_fonts no)
 	)
-  (symbol "0402CG4R7C500NT" (in_bom yes) (on_board yes) (pin_names hide)
-    (property "Reference" "Z" (at 10.16 8.89 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "0402CG4R7C500NT" (at 10.16 6.35 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "CAPC1005X55N" (at 10.16 -93.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707242876227584" (at 10.16 -193.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "4.7pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (at 10.16 -293.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "0.55" (at 10.16 -393.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Fenghua (HK) Electronics Ltd" (at 10.16 -493.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "0402CG4R7C500NT" (at 10.16 -593.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "" (at 10.16 -693.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "" (at 10.16 -793.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 10.16 -893.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 10.16 -993.65 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (polyline
-      (pts
-        (xy 5.08 2.032)
-        (xy 5.08 -2.032)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type none))
-    )
-    (polyline
-      (pts
-        (xy 5.08 2.032)
-        (xy 6.096 2.54)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type none))
-    )
-    (polyline
-      (pts
-        (xy 4.064 -2.54)
-        (xy 5.08 -2.032)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type none))
-    )
-    (polyline
-      (pts
-        (xy 2.54 0)
-        (xy 5.08 0)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type none))
-    )
-    (polyline
-      (pts
-        (xy 12.7 0)
-        (xy 10.16 0)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type none))
-    )
-    (polyline
-      (pts
-        (xy 5.08 0)
-        (xy 10.16 2.54)
-        (xy 10.16 -2.54)
-        (xy 5.08 0)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type outline))
-    )
-    (pin bidirectional line (at 0 0 0) (length 2.54)
-      (name "2" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 15.24 0 180) (length 2.54)
-      (name "" (effects (font (size 1.27 1.27))))
-      (number "" (effects (font (size 1.27 1.27))))
-    )
-  )
 )
