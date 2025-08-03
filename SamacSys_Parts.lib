@@ -1429,4 +1429,31 @@ P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model 0402CG4R7C500NT
+#/20726768/1672527/2.50/2/0/Zener Diode
+DEF 0402CG4R7C500NT Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "0402CG4R7C500NT" 400 250 50 H V L CNN
+F2 "CAPC1005X55N" 400 150 50 H I L CNN
+F3 "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707242876227584" 400 50 50 H I L CNN
+F4 "4.7pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" 400 -50 50 H I L CNN "Description"
+F5 "0.55" 400 -150 50 H I L CNN "Height"
+F6 "Fenghua (HK) Electronics Ltd" 400 -250 50 H I L CNN "Manufacturer_Name"
+F7 "0402CG4R7C500NT" 400 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 400 -450 50 H I L CNN "Mouser Part Number"
+F9 "" 400 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "" 400 -650 50 H I L CNN "Arrow Part Number"
+F11 "" 400 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 2 0 0 100 R 50 50 0 0 B
+X ~  600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
 #End Library
