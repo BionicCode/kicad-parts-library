@@ -1,32 +1,202 @@
-(module "SPM6530" (layer F.Cu)
-  (descr "SPM6530")
-  (tags "Inductor (FeSi Core)")
-  (attr smd)
-  (fp_text reference L** (at -0.068 -1.071) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at -0.068 -1.071) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SPM6530" (at -0.068 -1.071) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -3.55 -2.25) (end -2.55 -3.25) (layer F.Fab) (width 0.2))
-  (fp_line (start -2.55 -3.25) (end 3.55 -3.25) (layer F.Fab) (width 0.2))
-  (fp_line (start 3.55 -3.25) (end 3.55 2.25) (layer F.Fab) (width 0.2))
-  (fp_line (start 3.55 2.25) (end 2.55 3.25) (layer F.Fab) (width 0.2))
-  (fp_line (start 2.55 3.25) (end -3.55 3.25) (layer F.Fab) (width 0.2))
-  (fp_line (start -3.55 3.25) (end -3.55 -2.25) (layer F.Fab) (width 0.2))
-  (fp_line (start -3.55 -2.25) (end -2.55 -3.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.55 -3.25) (end 3.55 -3.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start 3.55 2.25) (end 2.55 3.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.55 3.25) (end -3.55 3.25) (layer F.SilkS) (width 0.2))
-  (fp_circle (center -4.126 -0.193) (end -4.126 -0.07343) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -2.775 0 0) (size 1.85 3.4) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.775 0 0) (size 1.85 3.4) (layers F.Cu F.Paste F.Mask))
-  (model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\SPM6530T-2R2M.stp"
-    (at (xyz -0.00039370077860168 0 0.0059055120456876))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
-  )
+(footprint "SPM6530"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SPM6530")
+	(tags "Inductor (FeSi Core)")
+	(property "Reference" "L**"
+		(at -0.525 -4.65 0)
+		(layer "F.SilkS")
+		(uuid "d75df009-21a0-4afe-b258-173f958308fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "SPM6530"
+		(at -0.068 -1.071 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "317a305b-b58a-44d5-a40b-08c0af3bf4f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f317c29-67fc-4dcd-8026-34b81400f23f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a67b9b8-2798-4b14-bf20-931d2381a3e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.55 -2.25)
+		(end -2.55 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16a006b0-ca3f-4d00-b4fd-e14d59c87e60")
+	)
+	(fp_line
+		(start -2.55 -3.25)
+		(end 3.55 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1025b1d-33dd-4a6d-aca6-3afaf7bc7ce2")
+	)
+	(fp_line
+		(start 2.55 3.25)
+		(end -3.55 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05e3e5a0-8e16-40cf-8a60-bc7204ce032d")
+	)
+	(fp_line
+		(start 3.55 2.25)
+		(end 2.55 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5d8d7d0-54f9-45b8-aeff-1692de82cdb0")
+	)
+	(fp_circle
+		(center -4.126 -0.193)
+		(end -4.126 -0.07343)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "80ac1948-a317-42dd-ab92-890460132f5d")
+	)
+	(fp_line
+		(start -3.55 -2.25)
+		(end -2.55 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09fa02e5-f462-4dca-b43d-086cb61ee4c1")
+	)
+	(fp_line
+		(start -3.55 3.25)
+		(end -3.55 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f9df86b-1adb-4586-abc2-f1b06c867fa2")
+	)
+	(fp_line
+		(start -2.55 -3.25)
+		(end 3.55 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3d3424f-5a2f-4826-b7b9-d93284de3ebd")
+	)
+	(fp_line
+		(start 2.55 3.25)
+		(end -3.55 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58883df5-68f0-4e68-921c-bfb9dac08a44")
+	)
+	(fp_line
+		(start 3.55 -3.25)
+		(end 3.55 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aed37ff0-63ae-48ef-9b10-7a69ba40c864")
+	)
+	(fp_line
+		(start 3.55 2.25)
+		(end 2.55 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b42f8af4-ef1d-409c-84bd-206871fdee06")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.068 -1.071 0)
+		(layer "F.Fab")
+		(uuid "d063cad8-6109-4964-8659-a91ab3922762")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.775 0)
+		(size 1.85 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6671ca31-cebc-46da-9bdf-e83b506a0c9e")
+	)
+	(pad "2" smd rect
+		(at 2.775 0)
+		(size 1.85 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df461d05-c4ef-4453-9f32-7262196ec3f6")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\SPM6530T-2R2M.stp"
+		(offset
+			(xyz -0.009999999626 0 0.1500000037)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )
