@@ -1,0 +1,163 @@
+(footprint "T55D107M025C0060_CAPPM7343X310N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "T55D107M025C0060_CASE_D_2917")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at -0.525 -2.775 0)
+		(layer "F.SilkS")
+		(uuid "38ace3b2-f34f-45d8-b3c7-77812217e8a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "100µF"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e3e997a6-df56-4f50-89cb-7d7717a3a4fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/docs/40174/t55.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47513bef-2831-4e77-89f8-c3d98a896598")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d7d009f-1ed0-4111-a7dc-5ca0fec636dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.4 -1.75)
+		(end 4.4 1.75)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "545683c2-b7de-45b3-bbec-0ed953f6bad3")
+	)
+	(fp_rect
+		(start -4.6 -2.65)
+		(end 4.6 2.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6f4938e9-be15-49bb-81d2-a20a98a75a52")
+	)
+	(fp_line
+		(start -3.65 -2.15)
+		(end 3.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81df0f35-df51-4dd0-8ca8-7995862d33ac")
+	)
+	(fp_line
+		(start -3.65 -1)
+		(end -2.5 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6d9e3c0-acec-442f-9e60-16563bb37a91")
+	)
+	(fp_line
+		(start -3.65 2.15)
+		(end -3.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3639a7cf-fbf5-429d-839b-89bc2fc462ad")
+	)
+	(fp_line
+		(start 3.65 -2.15)
+		(end 3.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e09b014f-1b7f-4b0d-b831-5b30f18c368a")
+	)
+	(fp_line
+		(start 3.65 2.15)
+		(end -3.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57bfb9f6-976e-4440-b74f-b23d7d9551f0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "19ea0335-61e4-4af6-902e-e9463a70e6d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.075 0)
+		(size 2.05 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05f9657a-fd04-4f10-a29b-9e1395608d58")
+	)
+	(pad "2" smd rect
+		(at 3.075 0)
+		(size 2.05 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a203f0d7-3079-4960-a6aa-706a17607227")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\T55D107M025C0060.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
