@@ -19670,7 +19670,6 @@
       (number "33" (effects (font (size 1.27 1.27))))
     )
   )
-	)
   (symbol "SPM6530T-2R2M" (in_bom yes) (on_board yes) (pin_names hide)
     (property "Reference" "L" (at 16.51 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left top))
