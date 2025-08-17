@@ -306,4 +306,10 @@ K
 F https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm6530_en.pdf
 $ENDCMP
 #
+$CMP CSD17575Q3
+D MOSFET 30V, N-channel NexFET Pwr MOSFET
+K
+F https://www.ti.com/lit/ds/symlink/csd17575q3.pdf?ts=1749500795214&ref_url=https%253A%252F%252Fwww.mouser.co.uk%252F
+$ENDCMP
+#
 #End Doc Library
