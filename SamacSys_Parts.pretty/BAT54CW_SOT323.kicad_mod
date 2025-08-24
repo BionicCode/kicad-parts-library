@@ -1,0 +1,140 @@
+(footprint "BAT54CW_SOT323"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT323 (SC-70)")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0.3 -2.925 0)
+		(layer "F.SilkS")
+		(uuid "001f3300-9457-474e-8d37-ba2dae3685e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "BAT54CW "
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5494ac31-0256-471b-bc18-a2010d06508a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8603186871392616448"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f221d86-6348-46e5-ba6d-3a53b3f8aaa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf248199-7b77-49b4-a6ce-a660d9df9e90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.35 -1.9)
+		(end 1.3 1.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3f77c192-fb8b-40ca-81b3-66bace7a7ae5")
+	)
+	(fp_rect
+		(start -1.25 -1.8)
+		(end 1.25 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9a521789-db69-45b5-9df7-50615b1e8148")
+	)
+	(fp_line
+		(start -0.325 0.6)
+		(end -0.975 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea524452-a3ea-4169-9d0d-4e7e65ac7029")
+	)
+	(fp_rect
+		(start -1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "081000f4-6bec-416c-865e-e7daa7d5dbab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b1e04d03-86b3-49fb-8b67-c5ba8a915fb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 1.1)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d4c5c18a-bfbc-4ce1-9422-81fc5a28c44d")
+	)
+	(pad "2" smd rect
+		(at 0.65 1.1)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db2d44e9-d3c4-45eb-9eaf-09e80d788406")
+	)
+	(pad "3" smd rect
+		(at 0 -1.1)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d242e180-ac68-4f70-a363-153c8060a2bc")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\BAT54CW.stp"
+		(offset
+			(xyz -1.479999997 -0.8699999917 -0.4300000007)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
