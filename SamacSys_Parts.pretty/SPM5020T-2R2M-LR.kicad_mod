@@ -1,0 +1,202 @@
+(footprint "SPM5020T-2R2M-LR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SPM5010-5020")
+	(tags "Inductor (FeSi Core)")
+	(property "Reference" "L**"
+		(at -0.55 -3.7 0)
+		(layer "F.SilkS")
+		(uuid "f0455001-2df1-4301-9492-a830385ce62b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "SPM5020T-2R2M-LR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cd20926d-6ef0-44d0-ba20-4b6737332b6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_spm5020-lr_en.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55801374-c60a-4cd7-8435-92fa47c675e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " SPM-LR series SPM5020-LR type"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcd6b9e2-e74d-48cf-8ad5-63563da039db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.55 -2.55)
+		(end 2.55 -2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36ea00d9-8b72-4132-9c78-48fd12939c99")
+	)
+	(fp_line
+		(start 2.55 2.55)
+		(end -2.55 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff8bc8b0-3f73-404b-9219-70beea776293")
+	)
+	(fp_circle
+		(center -3.55 0)
+		(end -3.55 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "502ecba5-155b-4fdf-9661-36741c7e7652")
+	)
+	(fp_line
+		(start -3.4 -3.25)
+		(end 3.4 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c0ae52d-0bcc-4151-b163-acca6026e7c3")
+	)
+	(fp_line
+		(start -3.4 3.25)
+		(end -3.4 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ee0bb72-15c3-459b-bb33-4f2b0b69154f")
+	)
+	(fp_line
+		(start 3.4 -3.25)
+		(end 3.4 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "787afa43-ad19-4f18-bfbb-248a1d4edbaf")
+	)
+	(fp_line
+		(start 3.4 3.25)
+		(end -3.4 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "658066de-6aba-4155-b290-4415f44ea7b3")
+	)
+	(fp_line
+		(start -2.55 -2.55)
+		(end 2.55 -2.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2eb12287-339b-4506-823b-d197c2e5c57e")
+	)
+	(fp_line
+		(start -2.55 2.55)
+		(end -2.55 -2.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1620531-0f70-46ce-b179-99fc2f188f65")
+	)
+	(fp_line
+		(start 2.55 -2.55)
+		(end 2.55 2.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "638c196b-61c3-4ed9-aede-08dbac146b9b")
+	)
+	(fp_line
+		(start 2.55 2.55)
+		(end -2.55 2.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e836cb1-e0ff-40ef-90e2-9414b08b0845")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "011a0c85-4268-4cf3-a23b-6a8b959c1f1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 0)
+		(size 1.4 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e635870a-e9e8-4664-8ebb-eff34ed42606")
+	)
+	(pad "2" smd rect
+		(at 2.2 0)
+		(size 1.4 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5d8e1ffc-d6f5-46af-bc30-0be61b8ed0a5")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\SPM5020T-2R2M-LR.stp"
+		(offset
+			(xyz 0 0 0.09999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

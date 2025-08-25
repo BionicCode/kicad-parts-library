@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
+	(property "Datasheet" "https://static6.arrow.com/aropdfconversion/ffe2ba5492cb7ec1f1c4ae5347fff3db30317aa5/taj-ce%20(1).pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
