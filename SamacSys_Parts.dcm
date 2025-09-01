@@ -342,4 +342,10 @@ K
 F https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0006.pdf
 $ENDCMP
 #
+$CMP TAJD476K025RNJ
+D AVX - TAJD476K025RNJ - CAP, TANT, 47UF, 25V, CASE D
+K
+F http://datasheets.avx.com/TAJ.pdf
+$ENDCMP
+#
 #End Doc Library
