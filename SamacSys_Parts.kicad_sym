@@ -17838,7 +17838,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TAJA106K016RNJ_10µF_Tantal"
+	(symbol "TAJA106K016RNJ_10µF_Tantalum"
 		(pin_names
 			(hide yes)
 		)
@@ -17919,7 +17919,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TAJA106K016RNJ_10µF_Tantal_1_1"
+		(symbol "TAJA106K016RNJ_10µF_Tantalum_1_1"
 			(polyline
 				(pts
 					(xy 2.54 0) (xy 5.08 0)
@@ -18030,7 +18030,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TAJA106K016RNJ_10µF_Tantal_Small"
+	(symbol "TAJA106K016RNJ_10µF_Tantalum_Small"
 		(pin_numbers
 			(hide yes)
 		)
@@ -18114,7 +18114,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TAJA106K016RNJ_10µF_Tantal_Small_0_1"
+		(symbol "TAJA106K016RNJ_10µF_Tantalum_Small_0_1"
 			(polyline
 				(pts
 					(xy -1.524 -1.27) (xy -1.524 -0.762)
@@ -18162,7 +18162,386 @@
 				)
 			)
 		)
-		(symbol "TAJA106K016RNJ_10µF_Tantal_Small_1_1"
+		(symbol "TAJA106K016RNJ_10µF_Tantalum_Small_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TAJD476K025RNJ_47µF_Tantalum"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 8.89 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "47µF"
+			(at 8.89 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:Kyocera_TAJ_CaseD_TAJD476K025RNJ"
+			(at 8.89 -96.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/TAJ.pdf"
+			(at 8.89 -196.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+125℃ 25V 47uF 900mΩ@100kHz ±10% CASE-D-7343 Tantalum Capacitors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7228"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "TAJD476K025RNJ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IsFootprintValid" "TRUE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TAJD476K025RNJ_47µF_Tantalum_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.064 1.778) (xy 4.064 0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 1.27) (xy 3.556 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 2.54)
+				(end 5.842 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TAJD476K025RNJ_47µF_Tantalum_Small"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at -2.286 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "47µF"
+			(at -2.286 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:Kyocera_TAJ_CaseD_TAJD476K025RNJ"
+			(at 8.89 -96.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/TAJ.pdf"
+			(at 8.89 -196.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+125℃ 25V 47uF 900mΩ@100kHz ±10% CASE-D-7343 Tantalum Capacitors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7228"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "TAJD476K025RNJ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IsFootprintValid" "TRUE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TAJD476K025RNJ_47µF_Tantalum_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -1.27) (xy -1.524 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.016) (xy -1.778 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.6858 -1.524)
+				(end -0.3048 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.3048 -1.524)
+				(end 0.6858 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "TAJD476K025RNJ_47µF_Tantalum_Small_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.8542)
@@ -22022,99 +22401,4 @@
 		)
 		(embedded_fonts no)
 	)
-  (symbol "TAJD476K025RNJ" (in_bom yes) (on_board yes) (pin_names hide)
-    (property "Reference" "C" (at 8.89 6.35 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "TAJD476K025RNJ" (at 8.89 3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "CAPPM7344X310N" (at 8.89 -96.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "http://datasheets.avx.com/TAJ.pdf" (at 8.89 -196.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "AVX - TAJD476K025RNJ - CAP, TANT, 47UF, 25V, CASE D" (at 8.89 -296.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "3.1" (at 8.89 -396.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Kyocera AVX" (at 8.89 -496.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "TAJD476K025RNJ" (at 8.89 -596.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "581-TAJD476K025" (at 8.89 -696.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/TAJD476K025RNJ?qs=TgiVZBL2SvwuL%252BzEwfQZNg%3D%3D" (at 8.89 -796.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "TAJD476K025RNJ" (at 8.89 -896.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/tajd476k025rnj/avx" (at 8.89 -996.19 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle
-      (start 5.08 2.54)
-      (end 5.842 -2.54)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (polyline
-      (pts
-        (xy 4.572 1.27)
-        (xy 3.556 1.27)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type none))
-    )
-    (polyline
-      (pts
-        (xy 4.064 1.778)
-        (xy 4.064 0.762)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type none))
-    )
-    (polyline
-      (pts
-        (xy 2.54 0)
-        (xy 5.08 0)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type none))
-    )
-    (polyline
-      (pts
-        (xy 7.62 0)
-        (xy 10.16 0)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type none))
-    )
-    (polyline
-      (pts
-        (xy 7.62 2.54)
-        (xy 7.62 -2.54)
-        (xy 6.858 -2.54)
-        (xy 6.858 2.54)
-        (xy 7.62 2.54)
-      )
-      (stroke (width 0.254) (type default))
-      (fill (type outline))
-    )
-    (pin passive line (at 0 0 0) (length 2.54)
-      (name "+" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 12.7 0 180) (length 2.54)
-      (name "-" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-  )
 )

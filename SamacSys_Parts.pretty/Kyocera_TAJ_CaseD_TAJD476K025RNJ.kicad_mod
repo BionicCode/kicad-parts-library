@@ -1,0 +1,163 @@
+(footprint "Kyocera_TAJ_CaseD_TAJD476K025RNJ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CASE D")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "0a8653b3-0ec7-46ff-87cd-9ab53b2defe3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPPM7344X310N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8b47fd7d-54bf-43ff-bb90-e1f00ea86fc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeab9eaa-d3a5-4e2e-bf10-f8b1d6d77fb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Kyocera AVX tantalum Case D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba326b3c-e041-4b11-95ee-c238c92b0dac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.25 -2.425)
+		(end 4.25 2.425)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f1ec0c5b-36f6-4e21-be95-072e87744a6c")
+	)
+	(fp_rect
+		(start -4.25 -2.425)
+		(end 4.25 2.425)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ceef4a25-18b2-45fa-a100-6cab93463b1f")
+	)
+	(fp_line
+		(start -3.65 -2.175)
+		(end 3.65 -2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "703b782b-a161-402f-825b-691a1e22a7fd")
+	)
+	(fp_line
+		(start -3.65 2.175)
+		(end -3.65 -2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3540a44-3da4-4819-ac21-db5128852ab0")
+	)
+	(fp_line
+		(start -2.425 2.1)
+		(end -3.575 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "076f372e-927c-46a8-b569-15624fd83263")
+	)
+	(fp_line
+		(start 3.65 -2.175)
+		(end 3.65 2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbce3a6b-3b99-4f93-9525-bdf951c05d36")
+	)
+	(fp_line
+		(start 3.65 2.175)
+		(end -3.65 2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c04a5163-564a-414c-b712-f43b47691632")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6f578001-fc2f-41fc-99c7-8cb92e81a3c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 0)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d7cef10b-fd22-4730-b1f7-d5e270fa9fa3")
+	)
+	(pad "2" smd rect
+		(at 3 0)
+		(size 2 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f45dc772-3096-4168-a3de-415856a6acd9")
+	)
+	(embedded_fonts no)
+	(model "F:\\KiCadLibraries\\kicad-parts-library\\SamacSys_Parts.3dshapes\\TAJD476K025RNJ.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
