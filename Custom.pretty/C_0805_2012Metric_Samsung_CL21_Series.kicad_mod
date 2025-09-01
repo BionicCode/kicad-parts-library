@@ -1,4 +1,4 @@
-(footprint "C_0805_2012Metric_Samsung_CL21A476MQYNNNE"
+(footprint "C_0805_2012Metric_Samsung_CL21_Series"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -64,8 +64,8 @@
 		(uuid "9cfb9da3-2de7-4ede-8be3-3a338a1273d3")
 	)
 	(fp_rect
-		(start -1.5625 -0.9625)
-		(end 1.5625 0.9625)
+		(start -1.537 -0.9425)
+		(end 1.537 0.9425)
 		(stroke
 			(width 0.05)
 			(type default)
