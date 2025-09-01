@@ -1,0 +1,123 @@
+(footprint "C_0603_1608Metric_Samsung_CL10_Series_ThicknessCode_8"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0.725 -1.725 0)
+		(layer "F.SilkS")
+		(uuid "443cd5d3-a62d-4f19-8a0d-b6bcaf404a0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "C_0603_1608Metric_Samsung_CL10_Series_ThicknessCode_8"
+		(at 0 1.16 0)
+		(layer "F.Fab")
+		(uuid "15aa8155-a2b7-4a22-a828-5ac7689a50da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/docs/45268/guidelformlccsolderpadspcbs.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eab4ae97-8fa7-415d-a475-95e416bca94d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e11cd5e-953d-4d49-8e90-e92704a3857c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.4 -0.725)
+		(end 1.4 0.725)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9cfb9da3-2de7-4ede-8be3-3a338a1273d3")
+	)
+	(fp_rect
+		(start -1.35 -0.675)
+		(end 1.35 0.675)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "576101ea-77ba-4933-b92c-ef7dadac95e7")
+	)
+	(fp_rect
+		(start -0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "44f34868-c212-4e32-b4ec-15c2d44ebf52")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "53afd13e-eb40-4c62-ac42-05603c125b74")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.72 0)
+		(size 0.76 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d868c721-6eca-4bf4-91ed-4e6680eddfc5")
+	)
+	(pad "2" smd rect
+		(at 0.72 0)
+		(size 0.76 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19f38f45-7713-4cc8-b7c7-8697e525d2fd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
