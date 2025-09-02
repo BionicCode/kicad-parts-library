@@ -1,4 +1,4 @@
-(footprint "C_0402_1005Metric_Samsung_CL05_Series_ThicknessCode_5_Automotive"
+(footprint "C_0603_1608Metric_Samsung_CL10_SizeControlCode_R"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,7 +6,7 @@
 	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor")
 	(property "Reference" "REF**"
-		(at 0.4 -1.65 0)
+		(at 0.725 -1.75 0)
 		(layer "F.SilkS")
 		(uuid "443cd5d3-a62d-4f19-8a0d-b6bcaf404a0e")
 		(effects
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "C_0402_1005Metric_Samsung_CL05_Series_ThicknessCode_5_Automotive"
+	(property "Value" "C_0603_1608Metric_Samsung_CL10_SizeControlCode_R"
 		(at 0 1.16 0)
 		(layer "F.Fab")
 		(uuid "15aa8155-a2b7-4a22-a828-5ac7689a50da")
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" "automotive grade"
+	(property "Description" "size tolerance code precedence: size control code"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -53,8 +53,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.03 -0.575)
-		(end 1.03 0.575)
+		(start -1.45 -0.8)
+		(end 1.45 0.8)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -64,8 +64,8 @@
 		(uuid "9cfb9da3-2de7-4ede-8be3-3a338a1273d3")
 	)
 	(fp_rect
-		(start -0.98 -0.525)
-		(end 0.98 0.525)
+		(start -1.4 -0.75)
+		(end 1.4 0.75)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -75,8 +75,8 @@
 		(uuid "576101ea-77ba-4933-b92c-ef7dadac95e7")
 	)
 	(fp_rect
-		(start -0.5 -0.25)
-		(end 0.5 0.25)
+		(start -0.8 -0.4)
+		(end 0.8 0.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -97,14 +97,14 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.465 0)
-		(size 0.53 0.55)
+		(at -0.755 0)
+		(size 0.79 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d868c721-6eca-4bf4-91ed-4e6680eddfc5")
 	)
 	(pad "2" smd rect
-		(at 0.465 0)
-		(size 0.53 0.55)
+		(at 0.755 0)
+		(size 0.79 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "19f38f45-7713-4cc8-b7c7-8697e525d2fd")
 	)
